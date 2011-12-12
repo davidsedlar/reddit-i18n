@@ -1,201 +1,224 @@
 # Translations template for r2.
-# Copyright (C) 2008 ORGANIZATION
+# Copyright (C) 2011 ORGANIZATION
 # This file is distributed under the same license as the r2 project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+# FIRST David Sedlar <david.sedlar@gmail.com>, 2011.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: r2 0.0.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2011-11-09 15:06-0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2011-12-16 13:26+0100\n"
+"Last-Translator: David Sedlar <david.sedlar@gmail.com>\n"
+"Language-Team: N/A <N/A>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 0.9.1\n"
+"Generated-By: Babel 0.9.4\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n>=3 && n<=4) ? 2 : 3;\n"
+"X-Poedit-Language: Slovenian\n"
+"X-Poedit-Country: SLOVENIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
 
-#: r2/controllers/api.py:112 r2/controllers/api.py:2019
-#: r2/controllers/api.py:2049 r2/controllers/listingcontroller.py:457
+#: r2/controllers/api.py:112
+#: r2/controllers/api.py:2019
+#: r2/controllers/api.py:2049
+#: r2/controllers/listingcontroller.py:457
 msgid "API"
-msgstr ""
+msgstr "API vmesnik"
 
 #: r2/controllers/api.py:140
 msgid "thanks for your message! you should hear back from us shortly."
-msgstr ""
+msgstr "hvala za vaše sporočilo! naš odgovor bi morali prejeti kmalu."
 
 #: r2/controllers/api.py:168
 msgid "your message has been delivered"
-msgstr ""
+msgstr "tvoje sporočilo je bilo poslano"
 
 #: r2/controllers/api.py:357
 msgid "no title found"
-msgstr ""
+msgstr "naslova ni mogoče najti"
 
-#: r2/controllers/api.py:537 r2/controllers/promotecontroller.py:373
+#: r2/controllers/api.py:537
+#: r2/controllers/promotecontroller.py:373
 msgid "added"
-msgstr ""
+msgstr "dodano"
 
-#: r2/controllers/api.py:564 r2/controllers/api.py:1073
-#: r2/controllers/api.py:1219 r2/controllers/api.py:1327
-#: r2/controllers/api.py:1770 r2/controllers/api.py:1805
-#: r2/controllers/api.py:1846 r2/controllers/api.py:1892
-#: r2/controllers/api.py:1938 r2/controllers/api.py:2098
-#: r2/controllers/api.py:2102 r2/controllers/api.py:2207
+#: r2/controllers/api.py:564
+#: r2/controllers/api.py:1073
+#: r2/controllers/api.py:1219
+#: r2/controllers/api.py:1327
+#: r2/controllers/api.py:1770
+#: r2/controllers/api.py:1805
+#: r2/controllers/api.py:1846
+#: r2/controllers/api.py:1892
+#: r2/controllers/api.py:1938
+#: r2/controllers/api.py:2098
+#: r2/controllers/api.py:2102
+#: r2/controllers/api.py:2207
 #: r2/controllers/listingcontroller.py:337
-#: r2/controllers/promotecontroller.py:494 r2/lib/menus.py:50
-#: r2/templates/frametoolbar.html:200 r2/templates/printablebuttons.html:175
+#: r2/controllers/promotecontroller.py:494
+#: r2/lib/menus.py:50
+#: r2/templates/frametoolbar.html:200
+#: r2/templates/printablebuttons.html:175
 msgid "saved"
-msgstr ""
+msgstr "shranjeno"
 
 #: r2/controllers/api.py:596
 msgid "you should be getting a verification email shortly."
-msgstr ""
+msgstr "kmalu bi moral prejeti potrditveni email"
 
 #: r2/controllers/api.py:598
 msgid "your email has been updated"
-msgstr ""
+msgstr "vaš email naslov je bil posodobljen"
 
 #: r2/controllers/api.py:607
 msgid "your email and password have been updated"
-msgstr ""
+msgstr "vaš email naslov in geslo sta bila posodobljena"
 
 #: r2/controllers/api.py:610
 msgid "your password has been updated"
-msgstr ""
+msgstr "vasš geslo je bilo posodobljeno"
 
 #: r2/controllers/api.py:888
 msgid "replied"
-msgstr ""
+msgstr "odgovorjeno"
 
 #: r2/controllers/api.py:949
 msgid "shared"
-msgstr ""
+msgstr "objavljeno"
 
 #: r2/controllers/api.py:952
 msgid "your link has been shared."
-msgstr ""
+msgstr "tvoja povezava je bila objavljena."
 
 #: r2/controllers/api.py:1052
 msgid "validation errors"
-msgstr ""
+msgstr "napake pri validaciji"
 
-#: r2/controllers/api.py:1145 r2/controllers/api.py:1854 r2/lib/menus.py:157
+#: r2/controllers/api.py:1145
+#: r2/controllers/api.py:1854
+#: r2/lib/menus.py:157
 #: r2/templates/printablebuttons.html:33
 #: r2/templates/subredditstylesheet.html:243
 msgid "deleted"
-msgstr ""
+msgstr "zbrisano"
 
-#: r2/controllers/api.py:1195 r2/templates/subredditstylesheet.html:196
+#: r2/controllers/api.py:1195
+#: r2/templates/subredditstylesheet.html:196
 msgid "bad image name"
-msgstr ""
+msgstr "napačno ime slike"
 
 #: r2/controllers/api.py:1199
 #, python-format
 msgid "too many images (you only get %d)"
-msgstr ""
+msgstr "preveč slik (dobiš jih samo %d)"
 
 #: r2/controllers/api.py:1207
 msgid "Invalid image or general image error"
-msgstr ""
+msgstr "Neveljavna slika ali splošna napaka s sliko"
 
 #: r2/controllers/api.py:1637
 msgid "claimed! now go to someone's userpage and give them a present!"
-msgstr ""
+msgstr "prevzeto! Zdaj pa obiščite uporabniški profil od nekoga in ga obdarite!"
 
 #: r2/controllers/api.py:1642
 msgid "claimed!"
-msgstr ""
+msgstr "prevzeto!"
 
 #: r2/controllers/api.py:1658
 msgid "an email will be sent to that account's address shortly"
-msgstr ""
+msgstr "email bo kmalu poslan na naslov tega uporabniškega profila"
 
 #: r2/controllers/api.py:1660
 msgid "try again tomorrow"
-msgstr ""
+msgstr "poskusite znova jutri"
 
-#: r2/controllers/api.py:1905 r2/controllers/api.py:2066
+#: r2/controllers/api.py:1905
+#: r2/controllers/api.py:2066
 msgid "invalid css class"
-msgstr ""
+msgstr "napačen css razred"
 
-#: r2/controllers/api.py:1908 r2/controllers/api.py:2069
+#: r2/controllers/api.py:1908
+#: r2/controllers/api.py:2069
 msgid "too many css classes"
-msgstr ""
+msgstr "preveč razredov css"
 
 #: r2/controllers/api.py:2085
 msgid "max flair templates reached"
-msgstr ""
+msgstr "max število predlog značk doseženo"
 
 #: r2/controllers/api.py:2303
 msgid "redirecting..."
-msgstr ""
+msgstr "preusmerjam..."
 
 #: r2/controllers/api.py:2306
 msgid "error (sorry)"
-msgstr ""
+msgstr "napaka (se opravičujemo)"
 
-#: r2/controllers/buttons.py:201 r2/controllers/buttons.py:209
+#: r2/controllers/buttons.py:201
+#: r2/controllers/buttons.py:209
 msgid "reddit buttons"
-msgstr ""
+msgstr "reddit gumbi"
 
 #: r2/controllers/buttons.py:215
 msgid "reddit widget"
-msgstr ""
+msgstr "reddit widget"
 
 #: r2/controllers/buttons.py:220
 msgid "bookmarklets"
-msgstr ""
+msgstr "priljubljenčki"
 
-#: r2/controllers/buttons.py:225 r2/controllers/front.py:706
-#: r2/lib/menus.py:87 r2/templates/newlink.html:104
+#: r2/controllers/buttons.py:225
+#: r2/controllers/front.py:706
+#: r2/lib/menus.py:87
+#: r2/templates/newlink.html:104
 msgid "submit"
-msgstr ""
+msgstr "potrdi"
 
 #: r2/controllers/embed.py:65
 msgid "edit this page"
-msgstr ""
+msgstr "uredit to stran"
 
 #: r2/controllers/embed.py:66
 msgid "yes, it's okay!"
-msgstr ""
+msgstr "ja, lahko!"
 
 #: r2/controllers/embed.py:67
 msgid "just read this first."
 msgstr ""
 
-#: r2/controllers/embed.py:83 r2/lib/menus.py:88 r2/lib/pages/pages.py:418
+#: r2/controllers/embed.py:83
+#: r2/lib/menus.py:88
+#: r2/lib/pages/pages.py:418
 #: r2/templates/frametoolbar.html:107
 msgid "help"
-msgstr ""
+msgstr "pomoč"
 
 #: r2/controllers/error.py:114
 #, python-format
 msgid "forbidden (%(domain)s)"
-msgstr ""
+msgstr "nedeovoljena (%(domain)s)"
 
 #: r2/controllers/error.py:135
 msgid "this reddit has been banned"
-msgstr ""
+msgstr "ta reddit je bil umaknjen"
 
 #: r2/controllers/errors.py:27
 msgid "please login to do that"
-msgstr ""
+msgstr "prijavi se preden narediš to"
 
 #: r2/controllers/errors.py:28
 msgid "you need to set a valid email address to do that."
-msgstr ""
+msgstr "pred tem moraš nastaviti veljaven email naslov."
 
 #: r2/controllers/errors.py:29
 msgid "a url is required"
-msgstr ""
+msgstr "url naslov je obvezen"
 
 #: r2/controllers/errors.py:30
 msgid "you should check that url"
-msgstr ""
+msgstr "preveri url naslov"
 
 #: r2/controllers/errors.py:31
 msgid "care to try these again?"
@@ -203,15 +226,15 @@ msgstr ""
 
 #: r2/controllers/errors.py:32
 msgid "invalid user name"
-msgstr ""
+msgstr "napačno uporabniško ime"
 
 #: r2/controllers/errors.py:33
 msgid "that username is already taken"
-msgstr ""
+msgstr "to uporabniško ime je že zasedeno"
 
 #: r2/controllers/errors.py:34
 msgid "that username is taken by a deleted account"
-msgstr ""
+msgstr "to uporabniško ime zaseda že izbrisan račun"
 
 #: r2/controllers/errors.py:35
 msgid "you can't send to a user that you have blocked"
@@ -219,72 +242,73 @@ msgstr ""
 
 #: r2/controllers/errors.py:36
 msgid "id not specified"
-msgstr ""
+msgstr "id ni specificiran"
 
 #: r2/controllers/errors.py:37
 msgid "you can't do that"
-msgstr ""
+msgstr "tega ne moreš storiti"
 
 #: r2/controllers/errors.py:38
 msgid "you are not logged in as that user"
-msgstr ""
+msgstr "nisi prijavljen kot ta uporabnik"
 
 #: r2/controllers/errors.py:39
 msgid "the link you are commenting on has been deleted"
-msgstr ""
+msgstr "povezava, na katero želiš komentirati, je bil izbrisana"
 
 #: r2/controllers/errors.py:40
 msgid "that comment has been deleted"
-msgstr ""
+msgstr "ta komentar je bil izbrisan"
 
 #: r2/controllers/errors.py:41
 msgid "that element has been deleted"
-msgstr ""
+msgstr "ta element je bil izbrisan"
 
 #: r2/controllers/errors.py:42
 msgid "that password is unacceptable"
-msgstr ""
+msgstr "to geslo je nesprejemljivo"
 
 #: r2/controllers/errors.py:43
 msgid "invalid password"
-msgstr ""
+msgstr "napačno geslo"
 
 #: r2/controllers/errors.py:44
 msgid "passwords do not match"
-msgstr ""
+msgstr "gesli se ne ujemata"
 
 #: r2/controllers/errors.py:45
 msgid "please enter a name"
-msgstr ""
+msgstr "prosimo vnesite ime"
 
 #: r2/controllers/errors.py:46
 msgid "please enter an email address"
-msgstr ""
+msgstr "prosimo vnesite email naslov"
 
 #: r2/controllers/errors.py:47
 msgid "no email address for that user"
-msgstr ""
+msgstr "ni email naslova za uporabnika"
 
 #: r2/controllers/errors.py:48
 msgid "send it to whom?"
-msgstr ""
+msgstr "pošljem naj komu?"
 
 #: r2/controllers/errors.py:49
 msgid "please enter a subject"
-msgstr ""
+msgstr "prosimo vnesite naslov/subjekt"
 
-#: r2/controllers/errors.py:50 r2/templates/gold.html:143
+#: r2/controllers/errors.py:50
+#: r2/templates/gold.html:143
 msgid "that user doesn't exist"
-msgstr ""
+msgstr "ta uporabnik ne obstaja"
 
 #: r2/controllers/errors.py:51
 msgid "please enter a username"
-msgstr ""
+msgstr "prosimo vnesite uporabniško ime"
 
 #: r2/controllers/errors.py:53
 #, python-format
 msgid "that number isn't in the right range (%(min)d to %(max)d)"
-msgstr ""
+msgstr "številka ne ustreza pravilnemu razponu (%(min)d to %(max)d)"
 
 #: r2/controllers/errors.py:54
 msgid "you used a character here that we can't handle"
@@ -292,60 +316,58 @@ msgstr ""
 
 #: r2/controllers/errors.py:55
 #, python-format
-msgid ""
-"your bid must be at least $%(min)d per day and no more than to $%(max)d in "
-"total."
+msgid "your bid must be at least $%(min)d per day and no more than to $%(max)d in total."
 msgstr ""
 
 #: r2/controllers/errors.py:56
 msgid "that link has already been submitted"
-msgstr ""
+msgstr "ta povezava je že bila dodana"
 
 #: r2/controllers/errors.py:57
 msgid "that reddit already exists"
-msgstr ""
+msgstr "ta reddit že obstaja"
 
 #: r2/controllers/errors.py:58
 msgid "that reddit doesn't exist"
-msgstr ""
+msgstr "ta reddit ne obstaja"
 
 #: r2/controllers/errors.py:59
 msgid "you aren't allowed to post there."
-msgstr ""
+msgstr "nisi pooblaščen za objavljanje tukaj."
 
 #: r2/controllers/errors.py:60
 msgid "you must specify a subreddit"
-msgstr ""
+msgstr "navesti morate subreddit"
 
 #: r2/controllers/errors.py:61
 msgid "that name isn't going to work"
-msgstr ""
+msgstr "to ime ne bo v redu"
 
 #: r2/controllers/errors.py:62
 #, python-format
 msgid "you are doing that too much. try again in %(time)s."
-msgstr ""
+msgstr "prehitro poizkušaš. poskusi znova čez %(time)s."
 
 #: r2/controllers/errors.py:63
 msgid "your session has expired"
-msgstr ""
+msgstr "tvoja seja je potekla"
 
 #: r2/controllers/errors.py:64
 msgid "you must accept the terms first"
-msgstr ""
+msgstr "najprej moraš sprejeti pogoje"
 
 #: r2/controllers/errors.py:68
 msgid "that option is not valid"
-msgstr ""
+msgstr "ta izbira ni veljavna"
 
 #: r2/controllers/errors.py:70
 #, python-format
 msgid "the following emails are invalid: %(emails)s"
-msgstr ""
+msgstr "naslednja email sporočila so neveljavna: %(emails)s"
 
 #: r2/controllers/errors.py:71
 msgid "please enter at least one email address"
-msgstr ""
+msgstr "prosimo vnesite vsaj en email naslov"
 
 #: r2/controllers/errors.py:72
 #, python-format
@@ -354,9 +376,7 @@ msgstr ""
 
 #: r2/controllers/errors.py:73
 #, python-format
-msgid ""
-"that reddit has already been oversold on %(start)s to %(end)s. Please pick "
-"another reddit or date."
+msgid "that reddit has already been oversold on %(start)s to %(end)s. Please pick another reddit or date."
 msgstr ""
 
 #: r2/controllers/errors.py:74
@@ -380,12 +400,12 @@ msgstr ""
 #: r2/controllers/errors.py:78
 #, python-format
 msgid "address problem: %(message)s"
-msgstr ""
+msgstr "problem z naslovom: %(message)s"
 
 #: r2/controllers/errors.py:79
 #, python-format
 msgid "card problem: %(message)s"
-msgstr ""
+msgstr "problem s kartico: %(message)s"
 
 #: r2/controllers/errors.py:80
 #, python-format
@@ -394,7 +414,7 @@ msgstr ""
 
 #: r2/controllers/errors.py:81
 msgid "we need something here"
-msgstr ""
+msgstr "vnesi nekaj sem"
 
 #: r2/controllers/errors.py:82
 msgid "we've never seen that code before"
@@ -406,11 +426,11 @@ msgstr ""
 
 #: r2/controllers/errors.py:84
 msgid "that reddit doesn't allow text posts"
-msgstr ""
+msgstr "ta reddit ne dovoljuje tekstovnih sporočil"
 
 #: r2/controllers/errors.py:85
 msgid "that reddit only allows text posts"
-msgstr ""
+msgstr "ta reddit dovoljuje samo tekstovna sporočila"
 
 #: r2/controllers/errors.py:86
 msgid "that's a piece of history now; it's too late to reply to it"
@@ -418,7 +438,7 @@ msgstr ""
 
 #: r2/controllers/errors.py:87
 msgid "invalid css name"
-msgstr ""
+msgstr "napačno ime css"
 
 #: r2/controllers/errors.py:88
 msgid "too many flair css classes"
@@ -426,123 +446,137 @@ msgstr ""
 
 #: r2/controllers/errors.py:89
 msgid "invalid client id"
-msgstr ""
+msgstr "neveljaven id klienta"
 
 #: r2/controllers/errors.py:90
 msgid "access denied by the user"
-msgstr ""
+msgstr "uporabnik je zavrnil dostop"
 
 #: r2/controllers/errors.py:91
 msgid "please confirm the form"
-msgstr ""
+msgstr "prosimo potrdite formo"
 
 #: r2/controllers/feedback.py:40
 msgid "help translate reddit into your language"
 msgstr ""
 
-#: r2/controllers/feedback.py:41 r2/lib/menus.py:140
+#: r2/controllers/feedback.py:41
+#: r2/lib/menus.py:140
 msgid "help translate"
-msgstr ""
+msgstr "pomagaj pri prevajanju"
 
 #: r2/controllers/front.py:121
 msgid "self service help"
-msgstr ""
+msgstr "samo-pomoč"
 
 #: r2/controllers/front.py:304
 msgid "no comments (yet)"
-msgstr ""
+msgstr "ni komentarjev (še)"
 
 #: r2/controllers/front.py:306
 #, python-format
 msgid "all %d comments"
-msgstr ""
+msgstr "vseh %d komentarjev"
 
 #: r2/controllers/front.py:308
 #, python-format
 msgid "top %d comments"
-msgstr ""
+msgstr "najvišjih %d komentarjev"
 
 #: r2/controllers/front.py:331
 #, python-format
 msgid "show all %d"
-msgstr ""
+msgstr "prikazi vse %d"
 
 #: r2/controllers/front.py:333
 #, python-format
 msgid "show %d"
-msgstr ""
+msgstr "prikaži %d"
 
 #: r2/controllers/front.py:349
 msgid "create a reddit"
-msgstr ""
+msgstr "ustvari reddit"
 
-#: r2/controllers/front.py:351 r2/templates/createsubreddit.html:49
+#: r2/controllers/front.py:351
+#: r2/templates/createsubreddit.html:49
 msgid "create a community"
-msgstr ""
+msgstr "ustvari skupnost"
 
-#: r2/controllers/front.py:529 r2/lib/menus.py:142
+#: r2/controllers/front.py:529
+#: r2/lib/menus.py:142
 msgid "awards"
 msgstr ""
 
-#: r2/controllers/front.py:559 r2/lib/menus.py:118
+#: r2/controllers/front.py:559
+#: r2/lib/menus.py:118
 msgid "related"
-msgstr ""
+msgstr "sorodno"
 
 #: r2/controllers/front.py:577
 msgid "other discussions"
-msgstr ""
+msgstr "druge razprave"
 
-#: r2/controllers/front.py:596 r2/controllers/front.py:640
+#: r2/controllers/front.py:596
+#: r2/controllers/front.py:640
 msgid "search results"
-msgstr ""
+msgstr "rezultati iskanja"
 
 #: r2/controllers/front.py:691
 msgid "seen it"
-msgstr ""
+msgstr "že videno"
 
-#: r2/controllers/front.py:798 r2/templates/login.html:88
-#: r2/templates/prefdelete.html:56 r2/templates/register.html:88
+#: r2/controllers/front.py:798
+#: r2/templates/login.html:88
+#: r2/templates/prefdelete.html:56
+#: r2/templates/register.html:88
 msgid "password"
-msgstr ""
+msgstr "geslo"
 
-#: r2/controllers/front.py:818 r2/controllers/front.py:834
+#: r2/controllers/front.py:818
+#: r2/controllers/front.py:834
 msgid "verify email"
-msgstr ""
+msgstr "potrdi email"
 
-#: r2/controllers/front.py:864 r2/templates/loginformwide.html:51
+#: r2/controllers/front.py:864
+#: r2/templates/loginformwide.html:51
 msgid "reset password"
-msgstr ""
+msgstr "resetiraj geslo"
 
-#: r2/controllers/front.py:1012 r2/controllers/post.py:161
+#: r2/controllers/front.py:1012
+#: r2/controllers/post.py:161
 msgid "opt out"
-msgstr ""
+msgstr "izpiši se"
 
-#: r2/controllers/front.py:1012 r2/controllers/post.py:171
+#: r2/controllers/front.py:1012
+#: r2/controllers/post.py:171
 msgid "welcome back"
-msgstr ""
+msgstr "pozdravljen nazaj"
 
 #: r2/controllers/front.py:1042
 msgid "thanks"
-msgstr ""
+msgstr "hvala"
 
-#: r2/controllers/front.py:1075 r2/controllers/front.py:1097
-#: r2/lib/menus.py:101 r2/templates/gold.html:83
+#: r2/controllers/front.py:1075
+#: r2/controllers/front.py:1097
+#: r2/lib/menus.py:101
+#: r2/templates/gold.html:83
 msgid "reddit gold"
-msgstr ""
+msgstr "reddit zlato"
 
 #: r2/controllers/ipn.py:228
 msgid "nice try."
-msgstr ""
+msgstr "skoraj bi ti uspelo."
 
 #: r2/controllers/ipn.py:276
 msgid "the gold has been delivered!"
-msgstr ""
+msgstr "zlato je bilo dostavljeno!"
 
 #: r2/controllers/ipn.py:449
 msgid "thanks for buying reddit gold!"
 msgstr ""
 
-#: r2/controllers/ipn.py:459 r2/templates/thanks.html:32
+#: r2/controllers/ipn.py:459
+#: r2/templates/thanks.html:32
 msgid "thanks for buying creddits!"
 msgstr ""
 
@@ -557,19 +591,19 @@ msgstr ""
 #: r2/controllers/ipn.py:474
 #, python-format
 msgid "Your gift to %s has been delivered."
-msgstr ""
+msgstr "Tvoje darilo za %s je bilo dostavljeno."
 
 #: r2/controllers/listingcontroller.py:348
 msgid "newest submissions"
-msgstr ""
+msgstr "najnovejši prispevki"
 
 #: r2/controllers/listingcontroller.py:429
 msgid "top scoring links"
-msgstr ""
+msgstr "najvišje ocenjene povezave"
 
 #: r2/controllers/listingcontroller.py:431
 msgid "most controversial links"
-msgstr ""
+msgstr "najbolj kontraverzne povezave"
 
 #: r2/controllers/listingcontroller.py:438
 msgid "you're really bored now, eh?"
@@ -578,76 +612,79 @@ msgstr ""
 #: r2/controllers/listingcontroller.py:502
 #, python-format
 msgid "overview for %(user)s"
-msgstr ""
+msgstr "pregled profila za %(user)s"
 
 #: r2/controllers/listingcontroller.py:503
 #, python-format
 msgid "comments by %(user)s"
-msgstr ""
+msgstr "komentarji od %(user)s"
 
 #: r2/controllers/listingcontroller.py:504
 #, python-format
 msgid "submitted by %(user)s"
-msgstr ""
+msgstr "prispevki od %(user)s"
 
 #: r2/controllers/listingcontroller.py:505
 #, python-format
 msgid "liked by %(user)s"
-msgstr ""
+msgstr "všečno od  %(user)s"
 
 #: r2/controllers/listingcontroller.py:506
 #, python-format
 msgid "disliked by %(user)s"
-msgstr ""
+msgstr "nevšečno od %(user)s"
 
 #: r2/controllers/listingcontroller.py:507
 #, python-format
 msgid "hidden by %(user)s"
-msgstr ""
+msgstr "skrito od %(user)s"
 
 #: r2/controllers/listingcontroller.py:508
 #, python-format
 msgid "profile for %(user)s"
-msgstr ""
+msgstr "profil za %(user)s"
 
 #: r2/controllers/listingcontroller.py:621
-#: r2/controllers/listingcontroller.py:630 r2/lib/menus.py:485
+#: r2/controllers/listingcontroller.py:630
+#: r2/lib/menus.py:485
 msgid "all"
-msgstr ""
+msgstr "vse"
 
 #: r2/controllers/listingcontroller.py:622
 #: r2/controllers/listingcontroller.py:631
 #: r2/templates/printablebuttons.html:332
 msgid "unread"
-msgstr ""
+msgstr "neprebrano"
 
 #: r2/controllers/listingcontroller.py:624
 msgid "comment replies"
-msgstr ""
+msgstr "odgovori komentarja"
 
 #: r2/controllers/listingcontroller.py:625
 msgid "post replies"
-msgstr ""
+msgstr "odgovori prispevka"
 
-#: r2/controllers/listingcontroller.py:638 r2/templates/redditheader.html:88
+#: r2/controllers/listingcontroller.py:638
+#: r2/templates/redditheader.html:88
 msgid "messages"
-msgstr ""
+msgstr "sporočila"
 
-#: r2/controllers/listingcontroller.py:785 r2/templates/pagenamenav.html:33
+#: r2/controllers/listingcontroller.py:785
+#: r2/templates/pagenamenav.html:33
 msgid "reddits"
-msgstr ""
+msgstr "redditi"
 
 #: r2/controllers/listingcontroller.py:835
 msgid "reddits: "
-msgstr ""
+msgstr "redditi:"
 
 #: r2/controllers/listingcontroller.py:871
 msgid "comments"
-msgstr ""
+msgstr "komentarji"
 
 #: r2/controllers/oauth2.py:42
 msgid "My Identity"
-msgstr ""
+msgstr "Moja Identiteta"
 
 #: r2/controllers/oauth2.py:43
 msgid "Access my reddit username and signup date."
@@ -655,11 +692,11 @@ msgstr ""
 
 #: r2/controllers/post.py:135
 msgid "over 18?"
-msgstr ""
+msgstr "star nad 18?"
 
 #: r2/controllers/promotecontroller.py:48
 msgid "promoted by you"
-msgstr ""
+msgstr "promovirano od vas"
 
 #: r2/controllers/promotecontroller.py:443
 msgid "failed to authenticate card.  sorry."
@@ -667,23 +704,23 @@ msgstr ""
 
 #: r2/controllers/promotecontroller.py:488
 msgid "bad image"
-msgstr ""
+msgstr "slaba slika"
 
 #: r2/controllers/reddit_base.py:870
 msgid "search failed"
-msgstr ""
+msgstr "iskanje ni uspelo"
 
 #: r2/controllers/validator/validator.py:1476
 msgid "please provide a first name"
-msgstr ""
+msgstr "prosimo navedite ime"
 
 #: r2/controllers/validator/validator.py:1478
 msgid "please provide a last name"
-msgstr ""
+msgstr "prosimo navedite priimek"
 
 #: r2/controllers/validator/validator.py:1480
 msgid "please provide an address"
-msgstr ""
+msgstr "prosimo navedite naslov"
 
 #: r2/controllers/validator/validator.py:1482
 msgid "please provide your city"
@@ -699,7 +736,7 @@ msgstr ""
 
 #: r2/controllers/validator/validator.py:1488
 msgid "please pick a country"
-msgstr ""
+msgstr "prosimo izberite državo"
 
 #: r2/controllers/validator/validator.py:1492
 msgid "Our ToS don't cover your country (yet). Sorry."
@@ -721,220 +758,235 @@ msgstr ""
 msgid "if you need backslashes, you're doing it wrong"
 msgstr ""
 
-#: r2/lib/jsontemplates.py:302 r2/templates/usertext.html:55
+#: r2/lib/jsontemplates.py:302
+#: r2/templates/usertext.html:55
 msgid "[removed]"
-msgstr ""
+msgstr "[odstranjeno]"
 
 #: r2/lib/menus.py:46
 msgid "what's hot"
-msgstr ""
+msgstr "vroče"
 
 #: r2/lib/menus.py:47
 msgid "what's new"
-msgstr ""
+msgstr "novo"
 
 #: r2/lib/menus.py:48
 msgid "top scoring"
-msgstr ""
+msgstr "najvišje ocenjeno"
 
 #: r2/lib/menus.py:49
 msgid "most controversial"
-msgstr ""
+msgstr "kontraverzno"
 
-#: r2/lib/menus.py:51 r2/lib/menus.py:67
+#: r2/lib/menus.py:51
+#: r2/lib/menus.py:67
 msgid "recommended"
-msgstr ""
+msgstr "priporočeno"
 
 #: r2/lib/menus.py:52
 msgid "promote"
-msgstr ""
+msgstr "promoviraj"
 
 #: r2/lib/menus.py:56
 msgid "hot"
-msgstr ""
+msgstr "vroče"
 
 #: r2/lib/menus.py:57
 msgid "new"
-msgstr ""
+msgstr "novo"
 
 #: r2/lib/menus.py:58
 msgid "old"
-msgstr ""
+msgstr "staro"
 
 #: r2/lib/menus.py:59
 msgid "ups"
-msgstr ""
+msgstr "za"
 
 #: r2/lib/menus.py:60
 msgid "downs"
-msgstr ""
+msgstr "proti"
 
-#: r2/lib/menus.py:61 r2/templates/widgetdemopanel.html:173
+#: r2/lib/menus.py:61
+#: r2/templates/widgetdemopanel.html:173
 msgid "top"
-msgstr ""
+msgstr "najboljše"
 
 #: r2/lib/menus.py:62
 msgid "more"
-msgstr ""
+msgstr "več"
 
 #: r2/lib/menus.py:63
 msgid "relevance"
-msgstr ""
+msgstr "relevantnost"
 
-#: r2/lib/menus.py:64 r2/templates/buttontypes.html:191
+#: r2/lib/menus.py:64
+#: r2/templates/buttontypes.html:191
 msgid "controversial"
-msgstr ""
+msgstr "kontraverzno"
 
 #: r2/lib/menus.py:65
 msgid "best"
-msgstr ""
+msgstr "najboljši"
 
 #: r2/lib/menus.py:66
 msgid "saved {toolbar}"
-msgstr ""
+msgstr "shranjen"
 
 #: r2/lib/menus.py:68
 msgid "rising"
-msgstr ""
+msgstr "naraščajoče"
 
 #: r2/lib/menus.py:69
 msgid "admin"
-msgstr ""
+msgstr "administrator"
 
-#: r2/lib/menus.py:72 r2/templates/widgetdemopanel.html:121
+#: r2/lib/menus.py:72
+#: r2/templates/widgetdemopanel.html:121
 msgid "this hour"
-msgstr ""
+msgstr "to uro"
 
-#: r2/lib/menus.py:73 r2/templates/widgetdemopanel.html:122
+#: r2/lib/menus.py:73
+#: r2/templates/widgetdemopanel.html:122
 msgid "today"
-msgstr ""
+msgstr "danes"
 
-#: r2/lib/menus.py:74 r2/templates/widgetdemopanel.html:123
+#: r2/lib/menus.py:74
+#: r2/templates/widgetdemopanel.html:123
 msgid "this week"
-msgstr ""
+msgstr "ta teden"
 
-#: r2/lib/menus.py:75 r2/templates/widgetdemopanel.html:124
+#: r2/lib/menus.py:75
+#: r2/templates/widgetdemopanel.html:124
 msgid "this month"
-msgstr ""
+msgstr "ta mesec"
 
 #: r2/lib/menus.py:76
 msgid "this year"
-msgstr ""
+msgstr "to leto"
 
 #: r2/lib/menus.py:77
 msgid "all time"
-msgstr ""
+msgstr "ves čas"
 
 #: r2/lib/menus.py:80
 msgid "spam"
-msgstr ""
+msgstr "spam"
 
 #: r2/lib/menus.py:81
 msgid "autobanned"
-msgstr ""
+msgstr "avto-onemogočen"
 
 #: r2/lib/menus.py:84
 msgid "turn admin on"
-msgstr ""
+msgstr "vklopi admin"
 
 #: r2/lib/menus.py:85
 msgid "turn admin off"
-msgstr ""
+msgstr "izklopi admin"
 
-#: r2/lib/menus.py:86 r2/lib/pages/pages.py:550 r2/lib/pages/pages.py:565
+#: r2/lib/menus.py:86
+#: r2/lib/pages/pages.py:550
+#: r2/lib/pages/pages.py:565
 msgid "preferences"
-msgstr ""
+msgstr "nastavitve"
 
 #: r2/lib/menus.py:89
 msgid "blog"
-msgstr ""
+msgstr "blog"
 
-#: r2/lib/menus.py:90 r2/templates/utils.html:424
+#: r2/lib/menus.py:90
+#: r2/templates/utils.html:424
 msgid "logout"
-msgstr ""
+msgstr "odjava"
 
 #: r2/lib/menus.py:93
 msgid "contact us"
-msgstr ""
+msgstr "kontaktiraj nas"
 
 #: r2/lib/menus.py:94
 msgid "firefox extension"
-msgstr ""
+msgstr "firefox dodatek (add-on)"
 
 #: r2/lib/menus.py:95
 msgid "buttons"
-msgstr ""
+msgstr "gumbi"
 
 #: r2/lib/menus.py:96
 msgid "widget"
-msgstr ""
+msgstr "widget"
 
 #: r2/lib/menus.py:97
 msgid "source code"
-msgstr ""
+msgstr "izvorna koda"
 
 #: r2/lib/menus.py:98
 msgid "mobile"
-msgstr ""
+msgstr "mobilno"
 
 #: r2/lib/menus.py:99
 msgid "store"
-msgstr ""
+msgstr "trgovina"
 
 #: r2/lib/menus.py:100
 msgid "advertise"
-msgstr ""
+msgstr "oglašuj"
 
 #: r2/lib/menus.py:102
 msgid "subreddits"
-msgstr ""
+msgstr "pod-redditi"
 
-#: r2/lib/menus.py:105 r2/templates/promotelinkform.html:317
+#: r2/lib/menus.py:105
+#: r2/templates/promotelinkform.html:317
 msgid "options"
-msgstr ""
+msgstr "nastavitve"
 
 #: r2/lib/menus.py:106
 msgid "RSS feeds"
-msgstr ""
+msgstr "RSS kanali"
 
 #: r2/lib/menus.py:107
 msgid "friends"
-msgstr ""
+msgstr "prijatelji"
 
 #: r2/lib/menus.py:108
 msgid "password/email"
-msgstr ""
+msgstr "geslo/email"
 
-#: r2/lib/menus.py:109 r2/templates/createsubreddit.html:281
+#: r2/lib/menus.py:109
+#: r2/templates/createsubreddit.html:281
 #: r2/templates/printablebuttons.html:33
 msgid "delete"
-msgstr ""
+msgstr "izbriši"
 
 #: r2/lib/menus.py:112
 msgid "compose"
-msgstr ""
+msgstr "ustvari"
 
 #: r2/lib/menus.py:113
 msgid "inbox"
-msgstr ""
+msgstr "prejeto"
 
 #: r2/lib/menus.py:114
 msgid "sent"
-msgstr ""
+msgstr "psolano"
 
 #: r2/lib/menus.py:117
 msgid "comments {toolbar}"
-msgstr ""
+msgstr "komentarji"
 
-#: r2/lib/menus.py:119 r2/templates/prefoptions.html:272
-#: r2/templates/prefoptions.html:281 r2/templates/prefoptions.html:290
+#: r2/lib/menus.py:119
+#: r2/templates/prefoptions.html:272
+#: r2/templates/prefoptions.html:281
+#: r2/templates/prefoptions.html:290
 msgid "details"
-msgstr ""
+msgstr "podrobnosti"
 
 #: r2/lib/menus.py:120
 #, python-format
 msgid "other discussions (%(num)s)"
-msgstr ""
+msgstr "druge diskusije (%(num)s)"
 
 #: r2/lib/menus.py:121
 msgid "shirt"
@@ -946,114 +998,123 @@ msgstr ""
 
 #: r2/lib/menus.py:125
 msgid "home"
-msgstr ""
+msgstr "domov"
 
-#: r2/lib/menus.py:126 r2/lib/pages/pages.py:408
+#: r2/lib/menus.py:126
+#: r2/lib/pages/pages.py:408
 msgid "about"
-msgstr ""
+msgstr "vizitka"
 
 #: r2/lib/menus.py:127
 msgid "edit subscriptions"
-msgstr ""
+msgstr "uredi naročnine"
 
-#: r2/lib/menus.py:128 r2/lib/pages/pages.py:1032
+#: r2/lib/menus.py:128
+#: r2/lib/pages/pages.py:1032
 #: r2/templates/createsubreddit.html:39
 msgid "community settings"
-msgstr ""
+msgstr "nastavitve skupnosti"
 
 #: r2/lib/menus.py:129
 msgid "edit moderators"
-msgstr ""
+msgstr "uredi moderatorje"
 
 #: r2/lib/menus.py:130
 msgid "moderator mail"
-msgstr ""
+msgstr "moderatorska pošta"
 
 #: r2/lib/menus.py:131
 msgid "edit approved submitters"
-msgstr ""
+msgstr "uredi odobrene avtorje prispevkov"
 
-#: r2/lib/menus.py:132 r2/lib/menus.py:133 r2/lib/pages/pages.py:2755
+#: r2/lib/menus.py:132
+#: r2/lib/menus.py:133
+#: r2/lib/pages/pages.py:2755
 msgid "ban users"
-msgstr ""
+msgstr "onemogoči uporabnike"
 
 #: r2/lib/menus.py:134
 msgid "edit user flair"
-msgstr ""
+msgstr "uredi uporabnikove značke"
 
 #: r2/lib/menus.py:136
 msgid "popular"
-msgstr ""
+msgstr "popularno"
 
-#: r2/lib/menus.py:137 r2/templates/admintranslations.html:33
+#: r2/lib/menus.py:137
+#: r2/templates/admintranslations.html:33
 #: r2/templates/createsubreddit.html:305
 msgid "create"
-msgstr ""
+msgstr "ustvari"
 
-#: r2/lib/menus.py:138 r2/lib/pages/pages.py:1325
+#: r2/lib/menus.py:138
+#: r2/lib/pages/pages.py:1325
 msgid "my reddits"
-msgstr ""
+msgstr "moji redditi"
 
-#: r2/lib/menus.py:141 r2/templates/subredditstylesheet.html:87
+#: r2/lib/menus.py:141
+#: r2/templates/subredditstylesheet.html:87
 msgid "errors"
-msgstr ""
+msgstr "napake"
 
 #: r2/lib/menus.py:143
 msgid "ads"
-msgstr ""
+msgstr "oglasi"
 
 #: r2/lib/menus.py:144
 msgid "usage"
-msgstr ""
+msgstr "načine uporabe"
 
 #: r2/lib/menus.py:145
 msgid "promoted"
-msgstr ""
+msgstr "promovirano"
 
 #: r2/lib/menus.py:146
 msgid "reporters"
-msgstr ""
+msgstr "prijavitelj"
 
 #: r2/lib/menus.py:147
 msgid "reported links"
-msgstr ""
+msgstr "prijavljene povezave"
 
 #: r2/lib/menus.py:148
 msgid "reported authors"
-msgstr ""
+msgstr "prijavljeni avtorji"
 
 #: r2/lib/menus.py:149
 msgid "info"
-msgstr ""
+msgstr "info"
 
-#: r2/lib/menus.py:150 r2/templates/printablebuttons.html:164
+#: r2/lib/menus.py:150
+#: r2/templates/printablebuttons.html:164
 #: r2/templates/sharelink.html:94
 msgid "share"
-msgstr ""
+msgstr "deli"
 
 #: r2/lib/menus.py:152
 msgid "overview"
-msgstr ""
+msgstr "pregled"
 
 #: r2/lib/menus.py:153
 msgid "submitted"
-msgstr ""
+msgstr "prispevano"
 
 #: r2/lib/menus.py:154
 msgid "liked"
-msgstr ""
+msgstr "všečno"
 
 #: r2/lib/menus.py:155
 msgid "disliked"
-msgstr ""
+msgstr "nevšečno"
 
 #: r2/lib/menus.py:156
 msgid "hidden {toolbar}"
-msgstr ""
+msgstr "skrito"
 
-#: r2/lib/menus.py:158 r2/templates/printablebuttons.html:58
+#: r2/lib/menus.py:158
+#: r2/templates/printablebuttons.html:58
 msgid "reported"
-msgstr ""
+msgstr "prijavljeno"
 
 #: r2/lib/menus.py:160
 msgid "self-serve advertising"
@@ -1061,283 +1122,281 @@ msgstr ""
 
 #: r2/lib/menus.py:161
 msgid "create promotion"
-msgstr ""
+msgstr "naredi promocijo"
 
 #: r2/lib/menus.py:162
+#, fuzzy
 msgid "my promoted links"
-msgstr ""
+msgstr "najvišje ocenjene povezave"
 
 #: r2/lib/menus.py:163
+#, fuzzy
 msgid "all promoted links"
-msgstr ""
+msgstr "najvišje ocenjene povezave"
 
 #: r2/lib/menus.py:164
+#, fuzzy
 msgid "unseen"
-msgstr ""
+msgstr "od-shrani"
 
 #: r2/lib/menus.py:165
 msgid "roadblock"
 msgstr ""
 
 #: r2/lib/menus.py:166
+#, fuzzy
 msgid "analytics"
-msgstr ""
+msgstr "poševno"
 
 #: r2/lib/menus.py:167
+#, fuzzy
 msgid "live"
-msgstr ""
+msgstr "všečno"
 
 #: r2/lib/menus.py:168
+#, fuzzy
 msgid "unpaid"
-msgstr ""
+msgstr "odkrij"
 
 #: r2/lib/menus.py:169
 msgid "pending"
 msgstr ""
 
 #: r2/lib/menus.py:170
+#, fuzzy
 msgid "rejected"
-msgstr ""
+msgstr "sorodno"
 
 #: r2/lib/menus.py:172
+#, fuzzy
 msgid "whitelist"
-msgstr ""
+msgstr "poševno"
 
 #: r2/lib/menus.py:414
+#, fuzzy
 msgid "sorted by"
-msgstr ""
+msgstr "Po imenu"
 
 #: r2/lib/menus.py:480
 msgid "kind"
-msgstr ""
+msgstr "vrsta"
 
 #: r2/lib/menus.py:495
 msgid "links from"
-msgstr ""
+msgstr "povezave na"
 
-#: r2/lib/promote.py:221 r2/lib/strings.py:248
+#: r2/lib/promote.py:221
+#: r2/lib/strings.py:248
 msgid "day"
 msgid_plural "days"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "dan"
+msgstr[1] "dneva"
+msgstr[2] "dnevi"
+msgstr[3] "dni"
 
 #: r2/lib/rand_strings.py:3
 msgid "Funny 500 page message 1"
-msgstr ""
+msgstr "naredil si že dovolj škode, prosimo ne osvežuj več"
 
 #: r2/lib/rand_strings.py:4
 msgid "Funny 500 page message 2"
-msgstr ""
+msgstr "in ti misliš da si popoln?"
 
 #: r2/lib/rand_strings.py:5
 msgid "Funny 500 page message 3"
-msgstr ""
+msgstr "veš kaj pravijo, dobiš to kar plačaš..."
 
 #: r2/lib/rand_strings.py:6
 msgid "Funny 500 page message 4"
-msgstr ""
+msgstr "Lahko to popraviš? <a href='mailto:jobs@reddit.com'>jobs@reddit.com</a>."
 
 #: r2/lib/rand_strings.py:7
 msgid "Funny 500 page message 5"
-msgstr ""
+msgstr "9/11 je vse obrnil na glavo."
 
 #: r2/lib/rand_strings.py:8
 msgid "Funny 500 page message 6"
-msgstr ""
+msgstr "Očitno danes res ni tvoj dan."
 
 #: r2/lib/rand_strings.py:9
 msgid "Funny 500 page message 7"
-msgstr ""
+msgstr "Conde Nast je dobil to, kar je plačal."
 
 #: r2/lib/rand_strings.py:10
 msgid "Funny 500 page message 8"
-msgstr ""
+msgstr "Hitro,  <a href=\"http://reddit.com/store \">kupi majico</a> in se oddolži za to polomijo."
 
 #: r2/lib/rand_strings.py:11
 msgid "Funny 500 page message 9"
-msgstr ""
+msgstr "Nova funkcionalnost se ne piše sama, veš."
 
 #: r2/lib/rand_strings.py:12
 msgid "Funny 500 page message 10"
-msgstr ""
+msgstr "Lahko jočeš, ne zamerimo ti."
 
 #: r2/lib/rand_strings.py:13
 msgid "Reason to create a reddit 1"
-msgstr ""
+msgstr "...za tvojo priljubljeno temo."
 
 #: r2/lib/rand_strings.py:14
 msgid "Reason to create a reddit 2"
-msgstr ""
+msgstr "...za tvoje priljubljeno društvo."
 
 #: r2/lib/rand_strings.py:15
 msgid "Reason to create a reddit 3"
-msgstr ""
+msgstr "...za tvojo priljubljeno ekipo."
 
 #: r2/lib/rand_strings.py:16
 msgid "Reason to create a reddit 4"
-msgstr ""
+msgstr "...ker ljubiš svobodo."
 
 #: r2/lib/rand_strings.py:17
 msgid "Reason to create a reddit 5"
-msgstr ""
+msgstr "...ker sovražiš svobodo."
 
 #: r2/lib/rand_strings.py:18
 msgid "Reason to create a reddit 6"
-msgstr ""
+msgstr "...za nepomembnega političnega kandidata."
 
 #: r2/lib/rand_strings.py:19
 msgid "Reason to create a reddit 7"
-msgstr ""
+msgstr "...za tvoj priljubljen hobi."
 
 #: r2/lib/rand_strings.py:20
 msgid "Reason to create a reddit 8"
-msgstr ""
+msgstr "...za tvoj priljubljen programski jezik."
 
 #: r2/lib/rand_strings.py:21
 msgid "Reason to create a reddit 9"
-msgstr ""
+msgstr "...za tvojo WoW druščino."
 
 #: r2/lib/rand_strings.py:22
 msgid "Reason to create a reddit 10"
-msgstr ""
+msgstr "...za tvoj Quake 2 klan."
 
 #: r2/lib/rand_strings.py:23
 msgid "Reason to create a reddit 11"
-msgstr ""
+msgstr "...ker je ta soba polna zmagovalcev."
 
 #: r2/lib/rand_strings.py:24
 msgid "Reason to create a reddit 12"
-msgstr ""
+msgstr "...za tvojo skupino tabornikov."
 
 #: r2/lib/rand_strings.py:25
 msgid "Reason to create a reddit 13"
-msgstr ""
+msgstr "...za ljudi, ki vedo, da je Han Solo streljal prvi."
 
 #: r2/lib/rand_strings.py:26
 msgid "Reason to create a reddit 14"
-msgstr ""
+msgstr "...za tvojo pisarno, da se informacije lažje razširijo."
 
 #: r2/lib/rand_strings.py:27
 msgid "Reason to create a reddit 15"
-msgstr ""
+msgstr "...za tvojo skupino rejcev smešnih živali."
 
 #: r2/lib/rand_strings.py:28
 msgid "Reason to create a reddit 16"
-msgstr ""
+msgstr "...ker je 4chan že prepoln."
 
 #: r2/lib/rand_strings.py:29
 msgid "Reason to create a reddit 17"
-msgstr ""
+msgstr "...ker nič v življenju ni zastonj (razen redditov!)."
 
 #: r2/lib/rand_strings.py:30
 msgid "Reason to create a reddit 18"
-msgstr ""
+msgstr "...sudo naredi svoj reddit."
 
 #: r2/lib/rand_strings.py:31
 msgid "Reason to create a reddit 19"
-msgstr ""
+msgstr "...ker se morajo tudi fanatični verniki nekje zbirati."
 
 #: r2/lib/rand_strings.py:32
 msgid "Reason to create a reddit 20"
-msgstr ""
+msgstr "...naredi to zaradi otrok!"
 
-#: r2/lib/strings.py:48 r2/lib/template_helpers.py:104
+#: r2/lib/strings.py:48
+#: r2/lib/template_helpers.py:104
 msgid "submitting..."
-msgstr ""
+msgstr "pošiljam..."
 
 #: r2/lib/strings.py:51
-#, python-format
+#, fuzzy, python-format
 msgid "%(num)d %(thing)s"
-msgstr ""
+msgstr "%(num)d %(persons)s"
 
 #: r2/lib/strings.py:54
-#, python-format
+#, fuzzy, python-format
 msgid "%(num)d %(point)s"
-msgstr ""
+msgstr "%(num)d %(persons)s"
 
 #: r2/lib/strings.py:57
-#, python-format
+#, fuzzy, python-format
 msgid "%(num)d %(time)s"
-msgstr ""
+msgstr "Časovni drsnik"
 
 #: r2/lib/strings.py:60
-#, python-format
+#, fuzzy, python-format
 msgid "%(num)5.3f %(thing)s"
-msgstr ""
+msgstr "pregleduj %(num)s povezav na enkrat"
 
 #: r2/lib/strings.py:63
 #, python-format
-msgid ""
-"<span class='number'>%(num)s</span>&#32;<span class='word'>%(persons)s</span>"
+msgid "<span class='number'>%(num)s</span>&#32;<span class='word'>%(persons)s</span>"
 msgstr ""
 
 #: r2/lib/strings.py:65
-msgid ""
-"reddit is a source for what's new and popular online. vote on links that you "
-"like or dislike and help decide what's popular, or submit your own!"
-msgstr ""
+msgid "reddit is a source for what's new and popular online. vote on links that you like or dislike and help decide what's popular, or submit your own!"
+msgstr "reddit je središče vsega kar je novo in popularno na spletu. glasuj za povezave, ki so ti všeč ali ti niso všeč in odločaj o tem, kaj bo popularno, ali pa prispevaj svoje povezave!"
 
 #: r2/lib/strings.py:67
 #, python-format
-msgid ""
-"that link has already been submitted, but you can try to [submit it again]"
-"(%s)."
-msgstr ""
+msgid "that link has already been submitted, but you can try to [submit it again](%s)."
+msgstr "ta povezava je že bila prispevana, ampak lahko jo [ponovno poskusiš poslati]( %s )."
 
 #: r2/lib/strings.py:69
 #, python-format
-msgid ""
-"that link has been submitted to multiple reddits. you can try to [submit it "
-"again](%s)."
-msgstr ""
+msgid "that link has been submitted to multiple reddits. you can try to [submit it again](%s)."
+msgstr "ta povezava je že prisotna v več redditih, lahko jo [ponovno poskusiš poslati]( %s )."
 
 #: r2/lib/strings.py:71
 msgid "your account has been deleted, but we won't judge you for it."
-msgstr ""
+msgstr "tvoj račun je bil izrisan, ampak ne bomo te obsojali za to"
 
-#: r2/lib/strings.py:73 r2/templates/frametoolbar.html:148
+#: r2/lib/strings.py:73
+#: r2/templates/frametoolbar.html:148
 msgid "you'll need to login or register to do that"
-msgstr ""
+msgstr "moral se boš prijaviti ali registrirati za narediti to"
 
 #: r2/lib/strings.py:74
 msgid "(don't worry, it only takes a few seconds)"
-msgstr ""
+msgstr "(ne skrbi, vzelo bo le nekaj sekund)"
 
 #: r2/lib/strings.py:76
 #, python-format
-msgid ""
-"Log in or register to connect your reddit account with [%(app_name)s]"
-"(%(app_about_url)s)."
+msgid "Log in or register to connect your reddit account with [%(app_name)s](%(app_about_url)s)."
 msgstr ""
 
 #: r2/lib/strings.py:78
 #, python-format
-msgid ""
-"I understand and agree that registration on or use of this site constitutes "
-"agreement to its %(user_agreement)s and %(privacy_policy)s."
-msgstr ""
+msgid "I understand and agree that registration on or use of this site constitutes agreement to its %(user_agreement)s and %(privacy_policy)s."
+msgstr "Razumem i nse strinjam s tem, da registracija na tej strani pomeni strinjanje z %(user_agreement)s in %(privacy_policy)s."
 
 #: r2/lib/strings.py:80
 #, python-format
-msgid ""
-"to view reddit with only submissions from your friends, use [reddit.com/r/"
-"friends](%s)"
-msgstr ""
+msgid "to view reddit with only submissions from your friends, use [reddit.com/r/friends](%s)"
+msgstr "za pregledovanje reddita samo s prispevki tvojih prijateljev, uporabi [reddit.com/r/friends](%s)"
 
 #: r2/lib/strings.py:82
+#, fuzzy
 msgid "your reddit has been created"
-msgstr ""
+msgstr "ta reddit je bil umaknjen"
 
 #: r2/lib/strings.py:84
-msgid ""
-"we haven't yet decided whether these things are spam, so you have a chance "
-"to change your vote:"
+msgid "we haven't yet decided whether these things are spam, so you have a chance to change your vote:"
 msgstr ""
 
 #: r2/lib/strings.py:85
-msgid ""
-"it's too late to change your vote on these things (the verdict has been "
-"issued):"
+msgid "it's too late to change your vote on these things (the verdict has been issued):"
 msgstr ""
 
 #: r2/lib/strings.py:86
@@ -1348,36 +1407,35 @@ msgstr ""
 #: r2/lib/strings.py:90
 #, python-format
 msgid "you have been added as a moderator to [%(title)s](%(url)s)."
-msgstr ""
+msgstr "dodan si kot moderator na [%(title)s](%(url)s)."
 
 #: r2/lib/strings.py:91
-#, python-format
+#, fuzzy, python-format
 msgid "you have been added as an approved submitter to [%(title)s](%(url)s)."
-msgstr ""
+msgstr "dodan si kot moderator na [%(title)s](%(url)s)."
 
 #: r2/lib/strings.py:92
 #, python-format
 msgid "you have been banned from posting to [%(title)s](%(url)s)."
-msgstr ""
+msgstr "onemogočeno ti je pisanje prispevkov na [%(title)s](%(url)s)."
 
 #: r2/lib/strings.py:93
-#, python-format
-msgid ""
-"you have been added to the list of users able to see [traffic for the "
-"sponsored link \"%(title)s\"](%(traffic_url)s)."
-msgstr ""
+#, fuzzy, python-format
+msgid "you have been added to the list of users able to see [traffic for the sponsored link \"%(title)s\"](%(traffic_url)s)."
+msgstr "dodan si kot moderator na [%(title)s](%(url)s)."
 
 #: r2/lib/strings.py:98
 msgid "you are a moderator"
-msgstr ""
+msgstr "si moderator"
 
 #: r2/lib/strings.py:99
+#, fuzzy
 msgid "you are an approved submitter"
-msgstr ""
+msgstr "nisi več moderator"
 
 #: r2/lib/strings.py:100
 msgid "you've been banned"
-msgstr ""
+msgstr "si onemogočen"
 
 #: r2/lib/strings.py:101
 msgid "you can view traffic on a promoted link"
@@ -1385,37 +1443,34 @@ msgstr ""
 
 #: r2/lib/strings.py:105
 msgid "you have not subscribed to any reddits."
-msgstr ""
+msgstr "trenutno nisi naročen na noben reddit."
 
 #: r2/lib/strings.py:106
 msgid "below are the reddits you have subscribed to"
-msgstr ""
+msgstr "spodaj so redditi, na katere si naročen."
 
 #: r2/lib/strings.py:107
+#, fuzzy
 msgid "below are the reddits that you are an approved submitter on."
-msgstr ""
+msgstr "spodaj so redditi, pri katerih imaš status moderatorja."
 
 #: r2/lib/strings.py:108
 msgid "below are the reddits that you have moderator access to."
-msgstr ""
+msgstr "spodaj so redditi, pri katerih imaš status moderatorja."
 
 #: r2/lib/strings.py:111
-msgid ""
-"click the `subscribe` or `unsubscribe` buttons to choose which reddits "
-"appear on your front page."
+msgid "click the `subscribe` or `unsubscribe` buttons to choose which reddits appear on your front page."
 msgstr ""
 
 #: r2/lib/strings.py:113
 #, python-format
-msgid ""
-"you're searching within the [%(reddit_name)s](%(reddit_link)s) reddit. you "
-"can also search within [all reddits](%(all_reddits_link)s)"
+msgid "you're searching within the [%(reddit_name)s](%(reddit_link)s) reddit. you can also search within [all reddits](%(all_reddits_link)s)"
 msgstr ""
 
 #: r2/lib/strings.py:117
-#, python-format
+#, fuzzy, python-format
 msgid "\"%(brokenurl)s\" is not a valid URL"
-msgstr ""
+msgstr "ta izbira ni veljavna"
 
 #: r2/lib/strings.py:118
 #, python-format
@@ -1433,13 +1488,14 @@ msgid "too big. keep it under %(max_size)dkb"
 msgstr ""
 
 #: r2/lib/strings.py:121
-#, python-format
+#, fuzzy, python-format
 msgid "syntax error: \"%(syntaxerror)s\""
-msgstr ""
+msgstr "Skladenjska napaka %s:%u: Slabo oblikovana oznaka."
 
 #: r2/lib/strings.py:122
+#, fuzzy
 msgid "@imports are not allowed"
-msgstr ""
+msgstr "Nadzorni znaki niso dovoljeni.\n"
 
 #: r2/lib/strings.py:123
 #, python-format
@@ -1453,54 +1509,41 @@ msgstr ""
 
 #: r2/lib/strings.py:126
 msgid "to anything interesting: news article, blog entry, video, picture..."
-msgstr ""
+msgstr "na nekaj zanimivega: novico, vnos v blogu, video, sliko..."
 
 #: r2/lib/strings.py:127
-#, python-format
+#, fuzzy, python-format
 msgid "%(author)s comments on %(title)s"
-msgstr ""
+msgstr "Dvokliknite na nazivno vrstico okna."
 
 #: r2/lib/strings.py:128
-#, python-format
+#, fuzzy, python-format
 msgid "%(title)s : %(site)s"
-msgstr ""
+msgstr "o %(site)s"
 
 #: r2/lib/strings.py:129
 #, python-format
 msgid ""
 "**this reddit has been banned**\n"
 "\n"
-"most likely this was done automatically by our spam filtering program. the "
-"program is still learning, and may even have some bugs, so if you feel the "
-"ban was a mistake, please submit a link to our [request a reddit listing]"
-"(%(link)s) and be sure to include the **exact name of the reddit**."
+"most likely this was done automatically by our spam filtering program. the program is still learning, and may even have some bugs, so if you feel the ban was a mistake, please submit a link to our [request a reddit listing](%(link)s) and be sure to include the **exact name of the reddit**."
 msgstr ""
 
 #: r2/lib/strings.py:130
 #, python-format
-msgid ""
-"The following is a sample of what Reddit users had to say about this page. "
-"The full discussion is available [here](%(fd_link)s); you can also get there "
-"by clicking the link's title (in the middle of the toolbar, to the right of "
-"the comments button)."
+msgid "The following is a sample of what Reddit users had to say about this page. The full discussion is available [here](%(fd_link)s); you can also get there by clicking the link's title (in the middle of the toolbar, to the right of the comments button)."
 msgstr ""
 
 #: r2/lib/strings.py:132
-msgid ""
-"You are submitting a link. The key to a successful submission is interesting "
-"content and a descriptive title."
+msgid "You are submitting a link. The key to a successful submission is interesting content and a descriptive title."
 msgstr ""
 
 #: r2/lib/strings.py:133
-msgid ""
-"You are submitting a text-based post. Speak your mind. A title is required, "
-"but expanding further in the text field is not. Beginning your title with "
-"\"vote up if\" is violation of intergalactic law."
+msgid "You are submitting a text-based post. Speak your mind. A title is required, but expanding further in the text field is not. Beginning your title with \"vote up if\" is violation of intergalactic law."
 msgstr ""
 
 #: r2/lib/strings.py:134
-msgid ""
-"You should consider using [reddit's mobile interface](http://i.reddit.com/)."
+msgid "You should consider using [reddit's mobile interface](http://i.reddit.com/)."
 msgstr ""
 
 #: r2/lib/strings.py:135
@@ -1508,13 +1551,13 @@ msgid "we're going to need to verify your email address for you to proceed."
 msgstr ""
 
 #: r2/lib/strings.py:136
-msgid ""
-"you'll be able to submit more frequently once you verify your email address"
+msgid "you'll be able to submit more frequently once you verify your email address"
 msgstr ""
 
 #: r2/lib/strings.py:137
+#, fuzzy
 msgid "your email address has been verfied"
-msgstr ""
+msgstr "tvoje sporočilo je bilo poslano"
 
 #: r2/lib/strings.py:138
 msgid "Verification failed.  Please try that again"
@@ -1522,17 +1565,12 @@ msgstr ""
 
 #: r2/lib/strings.py:139
 #, python-format
-msgid ""
-"Our search machines are under too much load to handle your request right "
-"now. :( Sorry for the inconvenience. [Try again](%(link)s) in a little bit "
-"-- but please don't mash reload; that only makes the problem worse."
+msgid "Our search machines are under too much load to handle your request right now. :( Sorry for the inconvenience. [Try again](%(link)s) in a little bit -- but please don't mash reload; that only makes the problem worse."
 msgstr ""
 
 #: r2/lib/strings.py:140
 #, python-format
-msgid ""
-"I couldn't understand your query, so I simplified it and searched for "
-"\"%(clean_query)s\" instead."
+msgid "I couldn't understand your query, so I simplified it and searched for \"%(clean_query)s\" instead."
 msgstr ""
 
 #: r2/lib/strings.py:141
@@ -1545,32 +1583,20 @@ msgstr ""
 
 #: r2/lib/strings.py:143
 #, python-format
-msgid ""
-"You've submitted several links recently that haven't been doing very well. "
-"You'll have to wait a while before you can submit again, or [write to the "
-"moderators of this reddit](%(link)s) and ask for an exemption."
+msgid "You've submitted several links recently that haven't been doing very well. You'll have to wait a while before you can submit again, or [write to the moderators of this reddit](%(link)s) and ask for an exemption."
 msgstr ""
 
 #: r2/lib/strings.py:144
 #, python-format
-msgid ""
-"You haven't [verified your email address](%(link1)s); until you do, your "
-"submitting privileges will be severely limited. Please try again in an hour "
-"or verify your email address. If you'd like an exemption from this rule, "
-"please [write to the moderators of this reddit](%(link2)s)."
+msgid "You haven't [verified your email address](%(link1)s); until you do, your submitting privileges will be severely limited. Please try again in an hour or verify your email address. If you'd like an exemption from this rule, please [write to the moderators of this reddit](%(link2)s)."
 msgstr ""
 
 #: r2/lib/strings.py:145
-msgid ""
-"reddit is in \"emergency read-only mode\" right now. :( you won't be able to "
-"log in. we're sorry, and are working frantically to fix the problem."
+msgid "reddit is in \"emergency read-only mode\" right now. :( you won't be able to log in. we're sorry, and are working frantically to fix the problem."
 msgstr ""
 
 #: r2/lib/strings.py:146
-msgid ""
-"reddit is under heavy load right now. :( we're sorry, and are working "
-"frantically to fix the problem. in the mean time, here's a read-only cached "
-"version of the page you were trying to access."
+msgid "reddit is under heavy load right now. :( we're sorry, and are working frantically to fix the problem. in the mean time, here's a read-only cached version of the page you were trying to access."
 msgstr ""
 
 #: r2/lib/strings.py:147
@@ -1579,17 +1605,12 @@ msgid "Please grab a drink and join us in [the lounge](%(link)s)."
 msgstr ""
 
 #: r2/lib/strings.py:148
-msgid ""
-"You sent us a postcard! (Or something similar.) When we run out of room on "
-"our refrigerator, we might one day auction off the stuff that people sent "
-"in. Is it okay if we include your thing?"
+msgid "You sent us a postcard! (Or something similar.) When we run out of room on our refrigerator, we might one day auction off the stuff that people sent in. Is it okay if we include your thing?"
 msgstr ""
 
 #: r2/lib/strings.py:149
 #, python-format
-msgid ""
-"Sorry, the maximum number of comments is %(max)d. (However, if you subscribe "
-"to reddit gold, it goes up to %(goldmax)d.)"
+msgid "Sorry, the maximum number of comments is %(max)d. (However, if you subscribe to reddit gold, it goes up to %(goldmax)d.)"
 msgstr ""
 
 #: r2/lib/strings.py:150
@@ -1612,38 +1633,27 @@ msgstr ""
 
 #: r2/lib/strings.py:153
 #, python-format
-msgid ""
-"You're about to set up an ongoing, autorenewing subscription to reddit gold "
-"for yourself (%(user)s)."
+msgid "You're about to set up an ongoing, autorenewing subscription to reddit gold for yourself (%(user)s)."
 msgstr ""
 
 #: r2/lib/strings.py:154
 #, python-format
-msgid ""
-"You're about to make a one-time purchase of %(amount)s of reddit gold for "
-"yourself (%(user)s)."
+msgid "You're about to make a one-time purchase of %(amount)s of reddit gold for yourself (%(user)s)."
 msgstr ""
 
 #: r2/lib/strings.py:155
 #, python-format
-msgid ""
-"You're about to purchase %(amount)s of reddit gold creddits. They work like "
-"gift certificates: each creddit you have will allow you to give one month of "
-"reddit gold to someone else."
+msgid "You're about to purchase %(amount)s of reddit gold creddits. They work like gift certificates: each creddit you have will allow you to give one month of reddit gold to someone else."
 msgstr ""
 
 #: r2/lib/strings.py:156
 #, python-format
-msgid ""
-"You're about to give %(amount)s of reddit gold to %(recipient)s, who will be "
-"told that it came from you."
+msgid "You're about to give %(amount)s of reddit gold to %(recipient)s, who will be told that it came from you."
 msgstr ""
 
 #: r2/lib/strings.py:157
 #, python-format
-msgid ""
-"You're about to give %(amount)s of reddit gold to %(recipient)s. It will be "
-"an anonymous gift."
+msgid "You're about to give %(amount)s of reddit gold to %(recipient)s. It will be an anonymous gift."
 msgstr ""
 
 #: r2/lib/strings.py:158
@@ -1651,11 +1661,7 @@ msgid "sorry, this has been archived and can no longer be voted on"
 msgstr ""
 
 #: r2/lib/strings.py:159
-msgid ""
-"This page shows a history of recent activity on your account. If you notice "
-"unusual activity, you should change your password immediately. Location "
-"information is guessed from your computer's IP address and may be wildly "
-"wrong, especially for visits from mobile devices."
+msgid "This page shows a history of recent activity on your account. If you notice unusual activity, you should change your password immediately. Location information is guessed from your computer's IP address and may be wildly wrong, especially for visits from mobile devices."
 msgstr ""
 
 #: r2/lib/strings.py:160
@@ -1663,125 +1669,173 @@ msgstr ""
 msgid "You are currently accessing reddit from this IP address: %(address)s."
 msgstr ""
 
-#: r2/lib/strings.py:227 r2/lib/strings.py:232 r2/lib/template_helpers.py:197
+#: r2/lib/strings.py:227
+#: r2/lib/strings.py:232
+#: r2/lib/template_helpers.py:197
 #: r2/templates/subredditstylesheet.html:277
 msgid "comment"
 msgid_plural "comments"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "komentar"
+msgstr[1] "komentarja"
+msgstr[2] "komentarji"
+msgstr[3] "komentarjev"
 
-#: r2/lib/strings.py:228 r2/templates/comment.htmllite:55
+#: r2/lib/strings.py:228
+#: r2/templates/comment.htmllite:55
 #: r2/templates/linkinfobar.html:40
 msgid "point"
 msgid_plural "points"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "točka"
+msgstr[1] "točki"
+msgstr[2] "točke"
+msgstr[3] "točk"
 
 #: r2/lib/strings.py:231
+#, fuzzy
 msgid "link"
 msgid_plural "links"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s: ni mogoče povezati %s: %s\n"
+msgstr[1] "všečno"
+msgstr[2] "všečno"
+msgstr[3] "všečno"
 
-#: r2/lib/strings.py:233 r2/lib/pages/pages.py:625
+#: r2/lib/strings.py:233
+#: r2/lib/pages/pages.py:625
 #: r2/templates/messagecompose.html:70
+#, fuzzy
 msgid "message"
 msgid_plural "messages"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "---- Sporočilne vrste ----\n"
+msgstr[1] "obvestilo"
+msgstr[2] "obvestilo"
+msgstr[3] "obvestilo"
 
 #: r2/lib/strings.py:234
+#, fuzzy
 msgid "subreddit"
 msgid_plural "subreddits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "pod-reddit"
+msgstr[1] "pod-reddit"
+msgstr[2] "pod-reddit"
+msgstr[3] "pod-reddit"
 
 #: r2/lib/strings.py:235
+#, fuzzy
 msgid "creddit"
 msgid_plural "creddits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "redditi"
+msgstr[1] "redditi"
+msgstr[2] "redditi"
+msgstr[3] "redditi"
 
 #: r2/lib/strings.py:238
+#, fuzzy
 msgid "reader"
 msgid_plural "readers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "ustvari"
+msgstr[1] "ustvari"
+msgstr[2] "ustvari"
+msgstr[3] "ustvari"
 
 #: r2/lib/strings.py:239
 msgid "subscriber"
 msgid_plural "subscribers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "naročnik"
+msgstr[1] "naročnika"
+msgstr[2] "naročniki"
+msgstr[3] "naročnikov"
 
-#: r2/lib/strings.py:240 r2/templates/subreddit.html:81
+#: r2/lib/strings.py:240
+#: r2/templates/subreddit.html:81
 #: r2/templates/subreddit.html:82
 msgid "approved submitter"
 msgid_plural "approved submitters"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
-#: r2/lib/strings.py:241 r2/templates/subreddit.html:75
+#: r2/lib/strings.py:241
+#: r2/templates/subreddit.html:75
 msgid "moderator"
 msgid_plural "moderators"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "moderator"
+msgstr[1] "moderatorja"
+msgstr[2] "moderatorji"
+msgstr[3] "moderatorjev"
 
 #: r2/lib/strings.py:244
+#, fuzzy
 msgid "milliseconds"
 msgid_plural "milliseconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "zamenjava glave: %ld\t\t# milisekund\n"
+msgstr[1] "milisekundi"
+msgstr[2] "milisekunde"
+msgstr[3] "milisekund"
 
-#: r2/lib/strings.py:245 r2/templates/searchbar.html:44
+#: r2/lib/strings.py:245
+#: r2/templates/searchbar.html:44
 msgid "second"
 msgid_plural "seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "sekunda"
+msgstr[1] "sekundi"
+msgstr[2] "sekunde"
+msgstr[3] "sekund"
 
 #: r2/lib/strings.py:246
 msgid "minute"
 msgid_plural "minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "minuta"
+msgstr[1] "minuti"
+msgstr[2] "minute"
+msgstr[3] "minut"
 
 #: r2/lib/strings.py:247
 msgid "hour"
 msgid_plural "hours"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "ura"
+msgstr[1] "uri"
+msgstr[2] "ure"
+msgstr[3] "ur"
 
 #: r2/lib/strings.py:249
 msgid "month"
 msgid_plural "months"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "mesec"
+msgstr[1] "meseca"
+msgstr[2] "meseci"
+msgstr[3] "mesecev"
 
 #: r2/lib/strings.py:250
 msgid "year"
 msgid_plural "years"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "leto"
+msgstr[1] "leti"
+msgstr[2] "leta"
+msgstr[3] "let"
 
 #: r2/lib/template_helpers.py:103
 msgid "fetching title..."
-msgstr ""
+msgstr "pridobivam naslov..."
 
 #: r2/lib/template_helpers.py:105
 msgid "loading..."
-msgstr ""
+msgstr "nalagam..."
 
 #: r2/lib/template_helpers.py:193
 msgid "comment {verb}"
-msgstr ""
+msgstr "komentiraj"
 
-#: r2/lib/template_helpers.py:411 r2/models/builder.py:142
+#: r2/lib/template_helpers.py:411
+#: r2/models/builder.py:142
+#, fuzzy
 msgid "friend"
-msgstr ""
+msgstr "dodaj prijatelja"
 
 #: r2/lib/template_helpers.py:418
+#, fuzzy
 msgid "submitter"
-msgstr ""
+msgstr "prispevano"
 
 #: r2/lib/template_helpers.py:432
 msgid "reddit admin, speaking officially"
@@ -1793,40 +1847,46 @@ msgid "%d %b %Y"
 msgstr "%d/%m/%Y"
 
 #: r2/lib/pages/pages.py:235
+#, fuzzy
 msgid "these reddits"
-msgstr ""
+msgstr "moji redditi"
 
 #: r2/lib/pages/pages.py:245
 msgid "Submit a link"
-msgstr ""
+msgstr "Prispevaj povezavo"
 
 #: r2/lib/pages/pages.py:255
+#, fuzzy
 msgid "Create your own community"
-msgstr ""
+msgstr "Naredi svoj reddit"
 
 #: r2/lib/pages/pages.py:261
 msgid "reddit gold creddits: now for sale!"
 msgstr ""
 
 #: r2/lib/pages/pages.py:279
+#, fuzzy
 msgid "moderators"
-msgstr ""
+msgstr "moderator"
 
 #: r2/lib/pages/pages.py:286
+#, fuzzy
 msgid "admin box"
-msgstr ""
+msgstr "vklopi admin"
 
 #: r2/lib/pages/pages.py:294
+#, fuzzy
 msgid "Recently viewed links"
-msgstr ""
+msgstr "najvišje ocenjene povezave"
 
 #: r2/lib/pages/pages.py:414
 msgid "FAQ"
 msgstr ""
 
 #: r2/lib/pages/pages.py:415
+#, fuzzy
 msgid "reddiquette"
-msgstr ""
+msgstr "redditi"
 
 #: r2/lib/pages/pages.py:425
 msgid "chrome extension"
@@ -1837,37 +1897,42 @@ msgid "tools"
 msgstr ""
 
 #: r2/lib/pages/pages.py:436
+#, fuzzy
 msgid "redditgifts"
-msgstr ""
+msgstr "redditi"
 
 #: r2/lib/pages/pages.py:437
+#, fuzzy
 msgid "reddit.tv"
-msgstr ""
+msgstr "reddit gumbi"
 
 #: r2/lib/pages/pages.py:438
+#, fuzzy
 msgid "radio reddit"
-msgstr ""
+msgstr "reddit gumbi"
 
 #: r2/lib/pages/pages.py:440
 msgid "<3"
 msgstr ""
 
 #: r2/lib/pages/pages.py:622
-#, python-format
+#, fuzzy, python-format
 msgid "%(site)s mail"
-msgstr ""
+msgstr "Čaka vas pošta.\n"
 
 #: r2/lib/pages/pages.py:684
 msgid "login or register"
-msgstr ""
+msgstr "prijava ali registracija"
 
 #: r2/lib/pages/pages.py:727
+#, fuzzy
 msgid "request for permission"
-msgstr ""
+msgstr "za ključ dostop zanikan"
 
 #: r2/lib/pages/pages.py:755
+#, fuzzy
 msgid "bummer"
-msgstr ""
+msgstr "številka"
 
 #: r2/lib/pages/pages.py:767
 msgid "this page is no longer available due to a copyright claim."
@@ -1876,33 +1941,37 @@ msgstr ""
 #: r2/lib/pages/pages.py:1033
 #, python-format
 msgid "about %(site)s"
-msgstr ""
+msgstr "o %(site)s"
 
 #: r2/lib/pages/pages.py:1059
 msgid "search reddits"
-msgstr ""
+msgstr "išči po redditih"
 
 #: r2/lib/pages/pages.py:1090
 #, python-format
 msgid "your front page reddits (%s)"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1151 r2/templates/createsubreddit.html:189
+#: r2/lib/pages/pages.py:1151
+#: r2/templates/createsubreddit.html:189
 #: r2/templates/spotlightlisting.html:54
+#, fuzzy
 msgid "what's this?"
-msgstr ""
+msgstr "to uro"
 
 #: r2/lib/pages/pages.py:1152
 msgid "trophy case"
 msgstr ""
 
 #: r2/lib/pages/pages.py:1200
+#, fuzzy
 msgid "an unknown amount"
-msgstr ""
+msgstr "Neznano (%02X)"
 
 #: r2/lib/pages/pages.py:1208
+#, fuzzy
 msgid "less than a day"
-msgstr ""
+msgstr "Zaposleni čas dneva"
 
 #: r2/lib/pages/pages.py:1217
 #, python-format
@@ -1910,35 +1979,38 @@ msgid "buy %(user)s a month of reddit gold"
 msgstr ""
 
 #: r2/lib/pages/pages.py:1220
+#, fuzzy
 msgid "renew your reddit gold"
-msgstr ""
+msgstr "uredi svoj reddit"
 
 #: r2/lib/pages/pages.py:1223
+#, fuzzy
 msgid "treat yourself to reddit gold"
-msgstr ""
+msgstr "Naredi svoj reddit"
 
 #: r2/lib/pages/pages.py:1258
 msgid "page not found"
-msgstr ""
+msgstr "strani ni mogoče najti"
 
 #: r2/lib/pages/pages.py:1269
 msgid "you aren't allowed to do that."
-msgstr ""
+msgstr "nisi pooblaščen za to."
 
 #: r2/lib/pages/pages.py:1397
-#, python-format
+#, fuzzy, python-format
 msgid "raise it to %s"
-msgstr ""
+msgstr "pošljem naj komu?"
 
-#: r2/lib/pages/pages.py:1399 r2/lib/pages/pages.py:1408
+#: r2/lib/pages/pages.py:1399
+#: r2/lib/pages/pages.py:1408
 #, python-format
 msgid "%s visible"
 msgstr ""
 
 #: r2/lib/pages/pages.py:1406
-#, python-format
+#, fuzzy, python-format
 msgid "%(bonus)s bonus reddits"
-msgstr ""
+msgstr "moji redditi"
 
 #: r2/lib/pages/pages.py:1594
 msgid "try entering those letters again"
@@ -1946,7 +2018,7 @@ msgstr ""
 
 #: r2/lib/pages/pages.py:1654
 msgid "previous search"
-msgstr ""
+msgstr "prejšnje iskanje"
 
 #: r2/lib/pages/pages.py:1687
 #, python-format
@@ -1962,36 +2034,42 @@ msgid "grant flair"
 msgstr ""
 
 #: r2/lib/pages/pages.py:2459
+#, fuzzy
 msgid "edit flair templates"
-msgstr ""
+msgstr "Uredi zaznamke mape"
 
 #: r2/lib/pages/pages.py:2658
+#, fuzzy
 msgid "user"
-msgstr ""
+msgstr "uporabnik"
 
 #: r2/lib/pages/pages.py:2658
+#, fuzzy
 msgid "note"
-msgstr ""
+msgstr "Izbiranje '%s' namesto '%s'\n"
 
 #: r2/lib/pages/pages.py:2658
+#, fuzzy
 msgid "friendship"
-msgstr ""
+msgstr "prijatelji"
 
 #: r2/lib/pages/pages.py:2664
 msgid "add a friend"
-msgstr ""
+msgstr "dodaj prijatelja"
 
 #: r2/lib/pages/pages.py:2668
 msgid "your friends"
-msgstr ""
+msgstr "tvoji prijatelji"
 
 #: r2/lib/pages/pages.py:2696
+#, fuzzy
 msgid "blocked users"
-msgstr ""
+msgstr "onemogoči uporabnike"
 
 #: r2/lib/pages/pages.py:2712
+#, fuzzy
 msgid "add approved submitter"
-msgstr ""
+msgstr "Dvojni seštevek odklona %s -> %s"
 
 #: r2/lib/pages/pages.py:2716
 #, python-format
@@ -2000,28 +2078,32 @@ msgstr ""
 
 #: r2/lib/pages/pages.py:2732
 msgid "add moderator"
-msgstr ""
+msgstr "dodaj moderatorja"
 
 #: r2/lib/pages/pages.py:2736
-#, python-format
+#, fuzzy, python-format
 msgid "moderators of %(reddit)s"
-msgstr ""
+msgstr "reddit gumbi"
 
 #: r2/lib/pages/pages.py:2759
 msgid "banned users"
-msgstr ""
+msgstr "onemogočeni uporabniki"
 
 #: r2/lib/pages/pages.py:2776
+#, fuzzy
 msgid "share traffic"
-msgstr ""
+msgstr "Souporaba s sistemom Windows"
 
 #: r2/lib/pages/pages.py:2780
+#, fuzzy
 msgid "current viewers"
-msgstr ""
+msgstr "  d          Izbriši trenutni razdelek"
 
-#: r2/lib/pages/pages.py:3731 r2/templates/accountactivitybox.html:24
+#: r2/lib/pages/pages.py:3731
+#: r2/templates/accountactivitybox.html:24
+#, fuzzy
 msgid "account activity"
-msgstr ""
+msgstr "ustvari račun"
 
 #: r2/models/builder.py:103
 #, python-format
@@ -2029,37 +2111,43 @@ msgid "moderator of /r/%(reddit)s, speaking officially"
 msgstr ""
 
 #: r2/models/builder.py:169
+#, fuzzy
 msgid "label_template"
-msgstr ""
+msgstr "Shranjena oznaka: %s\n"
 
 #: r2/models/link.py:530
-#, python-format
+#, fuzzy, python-format
 msgid "approved by %s"
-msgstr ""
+msgstr "Po imenu"
 
 #: r2/models/link.py:532
+#, fuzzy
 msgid "approved by a moderator"
-msgstr ""
+msgstr "si moderator"
 
 #: r2/models/link.py:805
 msgid "comment score below threshold"
-msgstr ""
+msgstr "ocena komentarja je pod spodnjo mejo"
 
 #: r2/models/link.py:810
+#, fuzzy
 msgid "blocked user"
-msgstr ""
+msgstr "Uporabniški meni"
 
 #: r2/models/link.py:1125
+#, fuzzy
 msgid "comment reply"
-msgstr ""
+msgstr "odgovori"
 
 #: r2/models/link.py:1131
+#, fuzzy
 msgid "post reply"
-msgstr ""
+msgstr "odgovori"
 
 #: r2/models/link.py:1150
+#, fuzzy
 msgid "[message from blocked user]"
-msgstr ""
+msgstr "Sporočilo iz %s@%s na %s pri %s ..."
 
 #: r2/models/link.py:1151
 msgid "[unblock user to see this message]"
@@ -2071,9 +2159,9 @@ msgid "[reddit] %(user)s has shared a link with you"
 msgstr ""
 
 #: r2/models/mail_queue.py:309
-#, python-format
+#, fuzzy, python-format
 msgid "[feedback] feedback from '%(user)s'"
-msgstr ""
+msgstr "Upravljanje uporabniških računov"
 
 #: r2/models/mail_queue.py:310
 #, python-format
@@ -2089,20 +2177,24 @@ msgid "[reddit] email addition notice"
 msgstr ""
 
 #: r2/models/mail_queue.py:313
+#, fuzzy
 msgid "[reddit] reset your password"
-msgstr ""
+msgstr "Vnesite svoje geslo v prijavni poziv"
 
 #: r2/models/mail_queue.py:314
+#, fuzzy
 msgid "[reddit] verify your email address"
-msgstr ""
+msgstr "prosimo vnesite email naslov"
 
 #: r2/models/mail_queue.py:315
+#, fuzzy
 msgid "[reddit] your bid has been accepted"
-msgstr ""
+msgstr "vaš email naslov je bil posodobljen"
 
 #: r2/models/mail_queue.py:316
+#, fuzzy
 msgid "[reddit] your promotion has been accepted"
-msgstr ""
+msgstr "vaš email naslov je bil posodobljen"
 
 #: r2/models/mail_queue.py:317
 msgid "[reddit] your promotion has been rejected"
@@ -2121,8 +2213,9 @@ msgid "[reddit] your promotion has finished"
 msgstr ""
 
 #: r2/models/mail_queue.py:321
+#, fuzzy
 msgid "[reddit] your promotion has been created"
-msgstr ""
+msgstr "vaš email naslov je bil posodobljen"
 
 #: r2/models/mail_queue.py:322
 #, python-format
@@ -2130,121 +2223,121 @@ msgid "[i18n] translation offer from '%(user)s'"
 msgstr ""
 
 #: r2/models/mail_queue.py:323
+#, fuzzy
 msgid "[reddit] hey, nerd!"
-msgstr ""
+msgstr "...za tvojo priljubljeno temo."
 
 #: r2/models/mail_queue.py:324
 msgid "[reddit] reddit gold activation link"
 msgstr ""
 
 #: r2/models/subreddit.py:945
+#, fuzzy
 msgid "on reddit.com"
-msgstr ""
+msgstr "%s %s za %s kodno preveden na %s %s\n"
 
 #: r2/templates/admintranslations.html:62
 msgid "disable"
-msgstr ""
+msgstr "onemogoči"
 
 #: r2/templates/admintranslations.html:63
 msgid "disabled"
-msgstr ""
+msgstr "onemogočen"
 
 #: r2/templates/admintranslations.html:66
 msgid "enable"
-msgstr ""
+msgstr "omogoči"
 
 #: r2/templates/admintranslations.html:67
 msgid "enabled"
-msgstr ""
+msgstr "omogočen"
 
 #: r2/templates/admintranslations.html:100
 msgid "add authors"
-msgstr ""
+msgstr "dodaj avtorje"
 
 #: r2/templates/base.html:51
-msgid ""
-"/* Custom css: use this block to insert special translation-dependent css in "
-"the page header */"
+msgid "/* Custom css: use this block to insert special translation-dependent css in the page header */"
 msgstr ""
 
 #: r2/templates/base.htmllite:88
-#, python-format
+#, fuzzy, python-format
 msgid "links from %(site)s"
-msgstr ""
+msgstr "Zajame zaslon"
 
 #: r2/templates/bookmarklets.html:30
 #, python-format
 msgid "install the %(site)s bookmarklet set"
-msgstr ""
+msgstr "namesti set priljubljenčkov iz %(site)s"
 
 #: r2/templates/bookmarklets.html:32
-msgid ""
-"once added to your bookmark bar, you can click these buttons from any site "
-"to get quick access to reddit functionality."
+msgid "once added to your bookmark bar, you can click these buttons from any site to get quick access to reddit functionality."
 msgstr ""
 
 #: r2/templates/bookmarklets.html:33
 msgid "in Firefox"
-msgstr ""
+msgstr "v Firefox-u"
 
-#: r2/templates/bookmarklets.html:35 r2/templates/bookmarklets.html:64
+#: r2/templates/bookmarklets.html:35
+#: r2/templates/bookmarklets.html:64
 msgid "click and drag"
-msgstr ""
+msgstr "klikni in premakni"
 
-#: r2/templates/bookmarklets.html:41 r2/templates/bookmarklets.html:70
+#: r2/templates/bookmarklets.html:41
+#: r2/templates/bookmarklets.html:70
+#, fuzzy
 msgid "to your bookmark bar."
-msgstr ""
+msgstr "Kam shraniti svoje varnostne kopije"
 
 #: r2/templates/bookmarklets.html:49
 msgid "in Internet Explorer"
-msgstr ""
+msgstr "v Internet Explorer-ju"
 
 #: r2/templates/bookmarklets.html:51
 msgid "right-click on"
-msgstr ""
+msgstr "desno klikni na"
 
 #: r2/templates/bookmarklets.html:57
+#, fuzzy
 msgid "then choose \"Add to Favorites\" and add to the \"Links\" folder."
-msgstr ""
+msgstr "izberi \"Dodaj med priljubljene\" in dodaj v mapo \"Povezave\""
 
 #: r2/templates/bookmarklets.html:62
 msgid "in Safari"
-msgstr ""
+msgstr "v Safari-ju"
 
 #: r2/templates/bookmarklets.html:76
 #, python-format
 msgid "voila! now you have all the functionality of %(site)s in your toolbar."
-msgstr ""
+msgstr "abrakadabra! sedaj imaš vso funkcionalnost iz %(site)s v svoji orodni vrstici"
 
 #: r2/templates/buttondemopanel.html:29
 #, python-format
 msgid "put %(site)s buttons on your site"
-msgstr ""
+msgstr "dodaj %(site)s gumbe na tvojo stran"
 
 #: r2/templates/buttondemopanel.html:30
-msgid ""
-"the reddit button is the smart way to get your content submitted to      and "
-"discussed on reddit.  pick the button you like from below, and then      "
-"copy/paste the code into your HTML editor."
+msgid "the reddit button is the smart way to get your content submitted to      and discussed on reddit.  pick the button you like from below, and then      copy/paste the code into your HTML editor."
 msgstr ""
 
 #: r2/templates/buttondemopanel.html:34
+#, fuzzy
 msgid "commonly used buttons"
-msgstr ""
+msgstr "porabljen prostor = %d bajtov\n"
 
 #: r2/templates/buttondemopanel.html:35
-msgid ""
-"use one of these buttons to quickly add reddit links to your site, or       "
-"see below for more options."
+msgid "use one of these buttons to quickly add reddit links to your site, or       see below for more options."
 msgstr ""
 
 #: r2/templates/buttondemopanel.html:46
+#, fuzzy
 msgid "buttons with points"
-msgstr ""
+msgstr "FTP (s prijavo)"
 
 #: r2/templates/buttondemopanel.html:52
+#, fuzzy
 msgid "customizing the look of your buttons"
-msgstr ""
+msgstr "dodaj %(site)s gumbe na tvojo stran"
 
 #: r2/templates/buttondemopanel.html:53
 msgid "the buttons with points have three additional options."
@@ -2259,95 +2352,129 @@ msgid "specify a url to use instead of the current url"
 msgstr ""
 
 #: r2/templates/buttondemopanel.html:60
+#, fuzzy
 msgid "opens links in a new window"
-msgstr ""
+msgstr "odpri povezave v novem oknu"
 
-#: r2/templates/buttondemopanel.html:62 r2/templates/buttondemopanel.html:114
+#: r2/templates/buttondemopanel.html:62
+#: r2/templates/buttondemopanel.html:114
 #: r2/templates/upgradebuttons.html:80
+#, fuzzy
 msgid "Example:"
-msgstr ""
+msgstr "Na primer:"
 
-#: r2/templates/buttondemopanel.html:68 r2/templates/upgradebuttons.html:34
+#: r2/templates/buttondemopanel.html:68
+#: r2/templates/upgradebuttons.html:34
+#, fuzzy
 msgid "simple interactive button"
-msgstr ""
+msgstr "Kliknite na gumb <gui>+</gui>."
 
-#: r2/templates/buttondemopanel.html:69 r2/templates/upgradebuttons.html:35
+#: r2/templates/buttondemopanel.html:69
+#: r2/templates/upgradebuttons.html:35
+#, fuzzy
 msgid "put this code on your page:"
-msgstr ""
+msgstr "dodaj %(site)s gumbe na tvojo stran"
 
-#: r2/templates/buttondemopanel.html:73 r2/templates/upgradebuttons.html:39
+#: r2/templates/buttondemopanel.html:73
+#: r2/templates/upgradebuttons.html:39
 msgid "and you'll get something like this:"
 msgstr ""
 
-#: r2/templates/buttondemopanel.html:78 r2/templates/upgradebuttons.html:44
+#: r2/templates/buttondemopanel.html:78
+#: r2/templates/upgradebuttons.html:44
+#, fuzzy
 msgid "more interactive buttons"
-msgstr ""
+msgstr "Dobite več pomoči"
 
-#: r2/templates/buttondemopanel.html:85 r2/templates/upgradebuttons.html:51
+#: r2/templates/buttondemopanel.html:85
+#: r2/templates/upgradebuttons.html:51
 msgid "interactive button advanced settings"
 msgstr ""
 
-#: r2/templates/buttondemopanel.html:89 r2/templates/upgradebuttons.html:55
+#: r2/templates/buttondemopanel.html:89
+#: r2/templates/upgradebuttons.html:55
+#, fuzzy
 msgid "specify a url"
+msgstr "url naslov je obvezen"
+
+#: r2/templates/buttondemopanel.html:90
+#: r2/templates/upgradebuttons.html:56
+msgid "useful in places like blogs, where you want to link to the post's permalink"
 msgstr ""
 
-#: r2/templates/buttondemopanel.html:90 r2/templates/upgradebuttons.html:56
-msgid ""
-"useful in places like blogs, where you want to link to the post's permalink"
-msgstr ""
-
-#: r2/templates/buttondemopanel.html:94 r2/templates/upgradebuttons.html:60
+#: r2/templates/buttondemopanel.html:94
+#: r2/templates/upgradebuttons.html:60
+#, fuzzy
 msgid "specify a community to target"
-msgstr ""
+msgstr "skupnost obstaja že %(time)s"
 
-#: r2/templates/buttondemopanel.html:98 r2/templates/upgradebuttons.html:64
+#: r2/templates/buttondemopanel.html:98
+#: r2/templates/upgradebuttons.html:64
+#, fuzzy
 msgid "specify a title"
-msgstr ""
+msgstr "pridobivam naslov..."
 
-#: r2/templates/buttondemopanel.html:102 r2/templates/prefoptions.html:109
+#: r2/templates/buttondemopanel.html:102
+#: r2/templates/prefoptions.html:109
 #: r2/templates/upgradebuttons.html:68
 msgid "open links in a new window"
-msgstr ""
+msgstr "odpri povezave v novem oknu"
 
-#: r2/templates/buttondemopanel.html:106 r2/templates/upgradebuttons.html:72
+#: r2/templates/buttondemopanel.html:106
+#: r2/templates/upgradebuttons.html:72
+#, fuzzy
 msgid "specify the color"
-msgstr ""
+msgstr "Barva slepota"
 
-#: r2/templates/buttondemopanel.html:110 r2/templates/upgradebuttons.html:76
+#: r2/templates/buttondemopanel.html:110
+#: r2/templates/upgradebuttons.html:76
+#, fuzzy
 msgid "specify a border color"
-msgstr ""
+msgstr "Kako uvoziti barvne profile?"
 
-#: r2/templates/buttondemopanel.html:115 r2/templates/upgradebuttons.html:81
+#: r2/templates/buttondemopanel.html:115
+#: r2/templates/upgradebuttons.html:81
+#, fuzzy
 msgid "to make this button:"
-msgstr ""
+msgstr "Te particije se ne more nastaviti kot zagonske"
 
-#: r2/templates/buttondemopanel.html:117 r2/templates/upgradebuttons.html:83
+#: r2/templates/buttondemopanel.html:117
+#: r2/templates/upgradebuttons.html:83
+#, fuzzy
 msgid "use this code:"
-msgstr ""
+msgstr "O tem vodiču"
 
 #: r2/templates/buttondemopanel.html:127
+#, fuzzy
 msgid "more badges and buttons"
-msgstr ""
+msgstr "Pokaže gumbe <placeholder-1/>, <placeholder-2/> in <placeholder-3/> v orodni vrstici."
 
-#: r2/templates/buttondemopanel.html:158 r2/templates/upgradebuttons.html:108
+#: r2/templates/buttondemopanel.html:158
+#: r2/templates/upgradebuttons.html:108
+#, fuzzy
 msgid "view code"
-msgstr ""
+msgstr "Točke kode"
 
-#: r2/templates/buttondemopanel.html:159 r2/templates/upgradebuttons.html:109
+#: r2/templates/buttondemopanel.html:159
+#: r2/templates/upgradebuttons.html:109
+#, fuzzy
 msgid "hide code"
-msgstr ""
+msgstr "Točke kode"
 
 #: r2/templates/buttontypes.html:189
+#, fuzzy
 msgid "quite controversial"
-msgstr ""
+msgstr "kontraverzno"
 
 #: r2/templates/buttontypes.html:193
+#, fuzzy
 msgid "uncontroversial"
-msgstr ""
+msgstr "kontraverzno"
 
 #: r2/templates/buttontypes.html:195
+#, fuzzy
 msgid "quite uncontroversial"
-msgstr ""
+msgstr "kontraverzno"
 
 #: r2/templates/buttontypes.html:212
 msgid "Vote on this article"
@@ -2359,65 +2486,78 @@ msgid "Discuss at the %(name)s reddit"
 msgstr ""
 
 #: r2/templates/buttontypes.html:219
-#, python-format
+#, fuzzy, python-format
 msgid "Submit to the %(name)s reddit"
-msgstr ""
+msgstr "...za tvojo priljubljeno temo."
 
 #: r2/templates/captcha.html:49
 msgid "(sorry)"
 msgstr ""
 
 #: r2/templates/captcha.html:49
+#, fuzzy
 msgid "are you human?"
-msgstr ""
+msgstr "si moderator"
 
 #: r2/templates/captcha.html:75
 msgid "human?"
-msgstr ""
+msgstr "si človek?"
 
 #: r2/templates/clickgadget.html:30
+#, fuzzy
 msgid "clear"
-msgstr ""
+msgstr "Počisti"
 
 #: r2/templates/comment.html:58
+#, fuzzy
 msgid "by"
-msgstr ""
+msgstr "Po imenu"
 
 #: r2/templates/comment.html:61
+#, fuzzy
 msgid "in"
-msgstr ""
+msgstr "Prijavljanje"
 
-#: r2/templates/comment.html:86 r2/templates/message.html:50
+#: r2/templates/comment.html:86
+#: r2/templates/message.html:50
 msgid "+"
-msgstr ""
+msgstr "+"
 
 #: r2/templates/comment.html:86
 msgid "&ndash;"
 msgstr ""
 
 #: r2/templates/comment.html:92
+#, fuzzy
 msgid "deleted comment from"
-msgstr ""
+msgstr "ta komentar je bil izbrisan"
 
-#: r2/templates/comment.html:98 r2/templates/comment.htmllite:46
-#: r2/templates/comment.xml:31 r2/templates/comment.xml:32
+#: r2/templates/comment.html:98
+#: r2/templates/comment.htmllite:46
+#: r2/templates/comment.xml:31
+#: r2/templates/comment.xml:32
+#, fuzzy
 msgid "[deleted]"
-msgstr ""
+msgstr "zbrisano"
 
-#: r2/templates/comment.html:107 r2/templates/comment.htmllite:46
-#: r2/templates/commentvisitsbox.html:38 r2/templates/useriphistory.html:49
+#: r2/templates/comment.html:107
+#: r2/templates/comment.htmllite:46
+#: r2/templates/commentvisitsbox.html:38
+#: r2/templates/useriphistory.html:49
 msgid "ago"
-msgstr ""
+msgstr "nazaj"
 
 #: r2/templates/comment.html:116
 msgid "child"
 msgid_plural "children"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "otrok"
+msgstr[1] "otroka"
+msgstr[2] "otroci"
+msgstr[3] "otrok"
 
 #: r2/templates/comment.xml:42
 msgid "on"
-msgstr ""
+msgstr "vklopljen"
 
 #: r2/templates/commentspanel.html:38
 msgid "This sidebar will automatically appear when there are comments."
@@ -2428,35 +2568,37 @@ msgid "This sidebar will not be shown automatically."
 msgstr ""
 
 #: r2/templates/commentvisitsbox.html:25
-msgid ""
-"You've been here before. To highlight comments that were posted since one of "
-"your visits, select it below:"
+msgid "You've been here before. To highlight comments that were posted since one of your visits, select it below:"
 msgstr ""
 
 #: r2/templates/commentvisitsbox.html:48
+#, fuzzy
 msgid "no highlighting"
-msgstr ""
+msgstr "-: brez dovoljenja."
 
 #: r2/templates/createsubreddit.html:47
 msgid "that subreddit doesn't exist, but you can create it here."
-msgstr ""
+msgstr "ta pod-reddit še ne obstaja, ampak lahko ga ustvariš tukaj."
 
 #: r2/templates/createsubreddit.html:55
+#, fuzzy
 msgid "no spaces, e.g., slashdot"
-msgstr ""
+msgstr "Noben paket ni bil najden"
 
 #: r2/templates/createsubreddit.html:55
 msgid "name"
-msgstr ""
+msgstr "ime"
 
 #: r2/templates/createsubreddit.html:69
+#, fuzzy
 msgid "e.g., slashdot: news for nerds, stuff that matters"
-msgstr ""
+msgstr "np. slashdot: novice za geeke, "
 
-#: r2/templates/createsubreddit.html:69 r2/templates/newlink.html:55
+#: r2/templates/createsubreddit.html:69
+#: r2/templates/newlink.html:55
 #: r2/templates/promotelinkform.html:257
 msgid "title"
-msgstr ""
+msgstr "naslov"
 
 #: r2/templates/createsubreddit.html:81
 msgid "500 characters max.  Make them count."
@@ -2464,75 +2606,84 @@ msgstr ""
 
 #: r2/templates/createsubreddit.html:81
 msgid "description"
-msgstr ""
+msgstr "opis"
 
 #: r2/templates/createsubreddit.html:90
 msgid "language"
-msgstr ""
+msgstr "jezik"
 
 #: r2/templates/createsubreddit.html:101
 msgid "type"
-msgstr ""
+msgstr "tip"
 
 #: r2/templates/createsubreddit.html:104
 msgid "public"
-msgstr ""
+msgstr "javno"
 
 #: r2/templates/createsubreddit.html:105
 msgid "anyone can view and submit"
-msgstr ""
+msgstr "vsakdo lahko pregleduje in prispeva"
 
 #: r2/templates/createsubreddit.html:107
 msgid "restricted"
-msgstr ""
+msgstr "omejeno"
 
 #: r2/templates/createsubreddit.html:108
+#, fuzzy
 msgid "anyone can view, but only some are approved to submit links"
-msgstr ""
+msgstr "vsakdo lahko pregleduje, samo udeleženci lahko pošiljajo"
 
-#: r2/templates/createsubreddit.html:110 r2/templates/subreddit.html:93
+#: r2/templates/createsubreddit.html:110
+#: r2/templates/subreddit.html:93
 msgid "private"
-msgstr ""
+msgstr "privatno"
 
 #: r2/templates/createsubreddit.html:111
+#, fuzzy
 msgid "only approved members can view and submit"
-msgstr ""
+msgstr "samo udeleženci lahko pregledujejo in pošiljajo"
 
-#: r2/templates/createsubreddit.html:117 r2/templates/prefoptions.html:243
+#: r2/templates/createsubreddit.html:117
+#: r2/templates/prefoptions.html:243
+#, fuzzy
 msgid "content options"
-msgstr ""
+msgstr "Možnosti po meri"
 
 #: r2/templates/createsubreddit.html:120
+#, fuzzy
 msgid "any"
-msgstr ""
+msgstr "dan"
 
 #: r2/templates/createsubreddit.html:121
 msgid "any link type is allowed"
 msgstr ""
 
 #: r2/templates/createsubreddit.html:123
+#, fuzzy
 msgid "links only"
-msgstr ""
+msgstr "povezave na"
 
 #: r2/templates/createsubreddit.html:124
 msgid "only links to external sites are allowed"
 msgstr ""
 
 #: r2/templates/createsubreddit.html:126
+#, fuzzy
 msgid "text posts only"
-msgstr ""
+msgstr "Le izpiši datoteke"
 
 #: r2/templates/createsubreddit.html:127
 msgid "only text/self posts are allowed"
 msgstr ""
 
 #: r2/templates/createsubreddit.html:133
+#, fuzzy
 msgid "other options"
-msgstr ""
+msgstr "Možnosti po meri"
 
 #: r2/templates/createsubreddit.html:140
 msgid "viewers must be over eighteen years old"
-msgstr ""
+msgstr "obiskovalci morajo biti nad 18 let"
 
 #: r2/templates/createsubreddit.html:148
 msgid "allow this reddit to be shown in the default set"
@@ -2543,8 +2694,9 @@ msgid "show thumbnail images of content"
 msgstr ""
 
 #: r2/templates/createsubreddit.html:163
+#, fuzzy
 msgid "domain"
-msgstr ""
+msgstr "nedeovoljena (%(domain)s)"
 
 #: r2/templates/createsubreddit.html:170
 msgid "make custom CSS styles apply only when accessed from the cname."
@@ -2554,36 +2706,40 @@ msgstr ""
 msgid "show sidebar when accessed from the cname."
 msgstr ""
 
-#: r2/templates/createsubreddit.html:189 r2/templates/usertext.html:72
+#: r2/templates/createsubreddit.html:189
+#: r2/templates/usertext.html:72
 msgid "hide help"
-msgstr ""
+msgstr "skrij pomoč"
 
 #: r2/templates/createsubreddit.html:193
-msgid ""
-"Own a domain?  Enter it here and then go to your DNS provider and add a "
-"CNAME record aliasing your domain to rhs.reddit.com. You will be able to "
-"access your reddit through your domain."
+msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.reddit.com. You will be able to access your reddit through your domain."
 msgstr ""
 
-#: r2/templates/createsubreddit.html:200 r2/templates/promotelinkform.html:297
+#: r2/templates/createsubreddit.html:200
+#: r2/templates/promotelinkform.html:297
+#, fuzzy
 msgid "look and feel"
-msgstr ""
+msgstr "Klikanje in vlečenje"
 
 #: r2/templates/createsubreddit.html:203
+#, fuzzy
 msgid "edit the stylesheet"
-msgstr ""
+msgstr "Uredi zaznamke mape"
 
 #: r2/templates/createsubreddit.html:207
+#, fuzzy
 msgid "leaves this page"
-msgstr ""
+msgstr "ena poškodovana stran\n"
 
 #: r2/templates/createsubreddit.html:216
+#, fuzzy
 msgid "upload header image"
-msgstr ""
+msgstr "napačno ime slike"
 
 #: r2/templates/createsubreddit.html:226
+#, fuzzy
 msgid "restore default header"
-msgstr ""
+msgstr "Neveljavna vrstica glave"
 
 #: r2/templates/createsubreddit.html:244
 msgid "sponsorship"
@@ -2594,90 +2750,114 @@ msgid "name this campaign (for traffic)"
 msgstr ""
 
 #: r2/templates/createsubreddit.html:265
+#, fuzzy
 msgid "enter link url here"
-msgstr ""
+msgstr "vnesi komentar sem"
 
 #: r2/templates/createsubreddit.html:270
+#, fuzzy
 msgid "upload sponsorship image"
-msgstr ""
+msgstr "napačno ime slike"
 
-#: r2/templates/createsubreddit.html:302 r2/templates/flairpane.html:64
-#: r2/templates/prefoptions.html:321 r2/templates/promotelinkform.html:395
+#: r2/templates/createsubreddit.html:302
+#: r2/templates/flairpane.html:64
+#: r2/templates/prefoptions.html:321
+#: r2/templates/promotelinkform.html:395
 msgid "save options"
-msgstr ""
+msgstr "shrani nastavitve"
 
-#: r2/templates/dart_ad.html:67 r2/templates/housead.html:32
+#: r2/templates/dart_ad.html:67
+#: r2/templates/housead.html:32
+#, fuzzy
 msgid "reddit this ad"
-msgstr ""
+msgstr "ta reddit je bil umaknjen"
 
-#: r2/templates/feedback.html:46 r2/templates/sharelink.html:33
+#: r2/templates/feedback.html:46
+#: r2/templates/sharelink.html:33
 msgid "your name"
-msgstr ""
+msgstr "tvoje ime"
 
 #: r2/templates/feedback.html:53
 msgid "(only used to reply)"
-msgstr ""
+msgstr "(se uporablja samo za odgovor)"
 
-#: r2/templates/feedback.html:53 r2/templates/login.html:78
-#: r2/templates/prefupdate.html:72 r2/templates/register.html:78
+#: r2/templates/feedback.html:53
+#: r2/templates/login.html:78
+#: r2/templates/prefupdate.html:72
+#: r2/templates/register.html:78
 msgid "email"
-msgstr ""
+msgstr "email"
 
-#: r2/templates/feedback.html:70 r2/templates/messagecompose.html:144
+#: r2/templates/feedback.html:70
+#: r2/templates/messagecompose.html:144
 msgid "send"
-msgstr ""
+msgstr "pošilji"
 
 #: r2/templates/feedbackblurb.html:67
+#, fuzzy
 msgid "send reddit feedback"
-msgstr ""
+msgstr "...za tvojo priljubljeno temo."
 
 #: r2/templates/flairlist.html:26
 msgid "jump to user (or add):"
 msgstr ""
 
 #: r2/templates/flairlist.html:31
+#, fuzzy
 msgid "go"
-msgstr ""
+msgstr "nazaj"
 
 #: r2/templates/flairlist.html:35
+#, fuzzy
 msgid "back to full list"
-msgstr ""
+msgstr "Uporabite %s -l za izpis seznama.\n"
 
 #: r2/templates/flairlist.html:38
+#, fuzzy
 msgid "back to the beginning"
-msgstr ""
+msgstr "Kako ustvariti varnostno kopijo"
 
-#: r2/templates/flairlist.html:46 r2/templates/flairtemplatelist.html:35
+#: r2/templates/flairlist.html:46
+#: r2/templates/flairtemplatelist.html:35
+#, fuzzy
 msgid "flair text"
-msgstr ""
+msgstr "Besedilne datoteke"
 
-#: r2/templates/flairlist.html:47 r2/templates/flairtemplatelist.html:36
+#: r2/templates/flairlist.html:47
+#: r2/templates/flairtemplatelist.html:36
+#, fuzzy
 msgid "css class"
-msgstr ""
+msgstr "napačen css razred"
 
-#: r2/templates/flairlistrow.html:45 r2/templates/flairselector.html:48
-#: r2/templates/frametoolbar.html:199 r2/templates/prefupdate.html:98
+#: r2/templates/flairlistrow.html:45
+#: r2/templates/flairselector.html:48
+#: r2/templates/frametoolbar.html:199
+#: r2/templates/prefupdate.html:98
 #: r2/templates/printablebuttons.html:174
 #: r2/templates/subredditstylesheet.html:77
 msgid "save"
-msgstr ""
+msgstr "shrani"
 
-#: r2/templates/flairnextlink.html:25 r2/templates/listing.html:40
+#: r2/templates/flairnextlink.html:25
+#: r2/templates/listing.html:40
 msgid "prev"
-msgstr ""
+msgstr "nazaj"
 
-#: r2/templates/flairnextlink.html:25 r2/templates/listing.html:46
+#: r2/templates/flairnextlink.html:25
+#: r2/templates/listing.html:46
 #: r2/templates/promotelinkform.html:398
 msgid "next"
-msgstr ""
+msgstr "naprej"
 
 #: r2/templates/flairpane.html:25
+#, fuzzy
 msgid "flair settings"
-msgstr ""
+msgstr "Sistemske nastavitve"
 
 #: r2/templates/flairpane.html:30
+#, fuzzy
 msgid "flair options"
-msgstr ""
+msgstr "Možnosti po meri"
 
 #: r2/templates/flairpane.html:39
 msgid "enable user flair in this subreddit"
@@ -2688,20 +2868,22 @@ msgid "allow users to assign their own flair"
 msgstr ""
 
 #: r2/templates/flairpane.html:53
+#, fuzzy
 msgid "flair position"
-msgstr ""
+msgstr "nastavitve povezav"
 
 #: r2/templates/flairpane.html:55
 msgid "left"
-msgstr ""
+msgstr "odšel"
 
 #: r2/templates/flairpane.html:56
 msgid "position flair to the left of the username"
 msgstr ""
 
 #: r2/templates/flairpane.html:58
+#, fuzzy
 msgid "right"
-msgstr ""
+msgstr "Desno"
 
 #: r2/templates/flairpane.html:59
 msgid "position flair to the right of the username"
@@ -2712,52 +2894,64 @@ msgid "Show my flair on this reddit. It looks like:"
 msgstr ""
 
 #: r2/templates/flairselector.html:23
+#, fuzzy
 msgid "select flair"
-msgstr ""
+msgstr "Izbira ni uspela"
 
 #: r2/templates/flairselector.html:52
+#, fuzzy
 msgid "flair selection unavailable"
-msgstr ""
+msgstr "Izbire %s ni mogoče najti"
 
 #: r2/templates/flairtemplatelist.html:34
+#, fuzzy
 msgid "user can edit?"
-msgstr ""
+msgstr "Uredi zaznamke mape"
 
 #: r2/templates/flairtemplatelist.html:49
 msgid "clear all flair templates"
 msgstr ""
 
 #: r2/templates/frametoolbar.html:66
+#, fuzzy
 msgid "show url"
-msgstr ""
+msgstr "url naslov je obvezen"
 
 #: r2/templates/frametoolbar.html:69
+#, fuzzy
 msgid "hide url"
-msgstr ""
+msgstr "Skritje datoteke"
 
 #: r2/templates/frametoolbar.html:73
+#, fuzzy
 msgid "load a random link"
-msgstr ""
+msgstr "*** Napaka med povezovanjem %s in %s"
 
 #: r2/templates/frametoolbar.html:80
+#, fuzzy
 msgid "serendipity"
-msgstr ""
+msgstr "že videno"
 
 #: r2/templates/frametoolbar.html:88
+#, fuzzy
 msgid "visit your userpage"
-msgstr ""
+msgstr "Preverite svoje varnostne kopije"
 
 #: r2/templates/frametoolbar.html:92
+#, fuzzy
 msgid "login / register"
-msgstr ""
+msgstr "prijava ali registracija"
 
 #: r2/templates/frametoolbar.html:100
+#, fuzzy
 msgid "new mail"
-msgstr ""
+msgstr "Čaka vas nova pošta.\n"
 
-#: r2/templates/frametoolbar.html:113 r2/templates/frametoolbar.html:114
+#: r2/templates/frametoolbar.html:113
+#: r2/templates/frametoolbar.html:114
+#, fuzzy
 msgid "visit this link without the toolbar"
-msgstr ""
+msgstr "prikaži povezave z reddit orodno vrstico"
 
 #: r2/templates/frametoolbar.html:121
 msgid "click to visit the main page for this submission"
@@ -2774,36 +2968,42 @@ msgstr ""
 
 #: r2/templates/frametoolbar.html:186
 msgid "like"
-msgstr ""
+msgstr "všečno"
 
 #: r2/templates/frametoolbar.html:187
 msgid "dislike"
-msgstr ""
+msgstr "nevšečno"
 
-#: r2/templates/frametoolbar.html:195 r2/templates/printablebuttons.html:171
+#: r2/templates/frametoolbar.html:195
+#: r2/templates/printablebuttons.html:171
 msgid "unsave"
-msgstr ""
+msgstr "od-shrani"
 
-#: r2/templates/frametoolbar.html:196 r2/templates/printablebuttons.html:172
+#: r2/templates/frametoolbar.html:196
+#: r2/templates/printablebuttons.html:172
 msgid "unsaved"
-msgstr ""
+msgstr "od-shranjeno"
 
-#: r2/templates/frametoolbar.html:205 r2/templates/printablebuttons.html:179
+#: r2/templates/frametoolbar.html:205
+#: r2/templates/printablebuttons.html:179
 msgid "unhide"
-msgstr ""
+msgstr "odkrij"
 
-#: r2/templates/frametoolbar.html:206 r2/templates/printablebuttons.html:180
+#: r2/templates/frametoolbar.html:206
+#: r2/templates/printablebuttons.html:180
 msgid "unhidden"
-msgstr ""
+msgstr "odkrito"
 
-#: r2/templates/frametoolbar.html:209 r2/templates/frametoolbar.html:210
+#: r2/templates/frametoolbar.html:209
+#: r2/templates/frametoolbar.html:210
 #: r2/templates/printablebuttons.html:182
 msgid "hide"
-msgstr ""
+msgstr "skrij"
 
 #: r2/templates/frametoolbar.html:217
+#, fuzzy
 msgid "toggle the comments panel"
-msgstr ""
+msgstr "komentarjev privzeto"
 
 #: r2/templates/gold.html:88
 msgid "Buy for yourself, as an ongoing subscription"
@@ -2822,22 +3022,26 @@ msgid "Buy reddit gold \"creddits\""
 msgstr ""
 
 #: r2/templates/gold.html:102
+#, fuzzy
 msgid "$3.99 / month"
-msgstr ""
+msgstr "ta mesec"
 
 #: r2/templates/gold.html:103
 msgid "$29.99 / year (which works out to just $2.50 / month!)"
 msgstr ""
 
-#: r2/templates/gold.html:105 r2/templates/subreddit.html:64
+#: r2/templates/gold.html:105
+#: r2/templates/subreddit.html:64
 msgid "subscribe"
-msgstr ""
+msgstr "naroči se"
 
 #: r2/templates/gold.html:111
+#, fuzzy
 msgid "How many months?"
-msgstr ""
+msgstr "Preveč razdelkov"
 
-#: r2/templates/gold.html:113 r2/templates/gold.html:174
+#: r2/templates/gold.html:113
+#: r2/templates/gold.html:174
 msgid "buy"
 msgstr ""
 
@@ -2847,9 +3051,7 @@ msgstr ""
 
 #: r2/templates/gold.html:130
 #, python-format
-msgid ""
-"Note: If you want to give more than %(number)d, you'll need to buy more "
-"creddits."
+msgid "Note: If you want to give more than %(number)d, you'll need to buy more creddits."
 msgstr ""
 
 #: r2/templates/gold.html:137
@@ -2861,25 +3063,27 @@ msgid "Do you want them to know it came from you?"
 msgstr ""
 
 #: r2/templates/gold.html:150
+#, fuzzy
 msgid "yes, include my username"
-msgstr ""
+msgstr "prosimo vnesite uporabniško ime"
 
 #: r2/templates/gold.html:154
+#, fuzzy
 msgid "no, make it anonymous"
-msgstr ""
+msgstr "mount: %s bo ustvarjen, ker ga nisem našel\n"
 
 #: r2/templates/gold.html:160
+#, fuzzy
 msgid "Gift message (optional):"
-msgstr ""
+msgstr "---- PID-i sporočilnih vrst ----\n"
 
-#: r2/templates/gold.html:165 r2/templates/goldpayment.html:50
+#: r2/templates/gold.html:165
+#: r2/templates/goldpayment.html:50
 msgid "give"
 msgstr ""
 
 #: r2/templates/gold.html:172
-msgid ""
-"How many creddits would you like to buy? (each will allow you to give one "
-"month of reddit gold)"
+msgid "How many creddits would you like to buy? (each will allow you to give one month of reddit gold)"
 msgstr ""
 
 #: r2/templates/goldpayment.html:37
@@ -2899,8 +3103,7 @@ msgid "PayPal"
 msgstr ""
 
 #: r2/templates/goldpayment.html:93
-msgid ""
-"Note: Google Checkout does not support ongoing subscriptions at this time."
+msgid "Note: Google Checkout does not support ongoing subscriptions at this time."
 msgstr ""
 
 #: r2/templates/link.html:71
@@ -2912,59 +3115,66 @@ msgid "NSFW"
 msgstr ""
 
 #: r2/templates/link.html:90
-msgid ""
-"(no need to click for this info; just hover over the checkmark next time)"
+msgid "(no need to click for this info; just hover over the checkmark next time)"
 msgstr ""
 
 #: r2/templates/link.html:205
-#, python-format
+#, fuzzy, python-format
 msgid "%(score)s submitted %(when)s ago"
-msgstr ""
+msgstr "prispeval %(author)s pred %(when)s"
 
 #: r2/templates/link.html:207
-#, python-format
+#, fuzzy, python-format
 msgid "by %(author)s to %(reddit)s"
-msgstr ""
+msgstr "...za tvojo priljubljeno temo."
 
 #: r2/templates/link.html:209
-#, python-format
+#, fuzzy, python-format
 msgid "by %(author)s"
-msgstr ""
+msgstr "Po imenu"
 
 #: r2/templates/link.html:211
 #, python-format
 msgid "submitted %(when)s ago by %(author)s to %(reddit)s"
-msgstr ""
+msgstr "prispeval %(author)s pred %(when)s na %(reddit)s"
 
 #: r2/templates/link.html:213
 #, python-format
 msgid "submitted %(when)s ago by %(author)s"
-msgstr ""
+msgstr "prispeval %(author)s pred %(when)s"
 
 #: r2/templates/linkinfobar.html:34
+#, fuzzy
 msgid "this post was submitted on"
-msgstr ""
+msgstr "ustvarjeno na"
 
 #: r2/templates/linkinfobar.html:43
+#, fuzzy
 msgid "like it"
-msgstr ""
+msgstr "že videno"
 
 #: r2/templates/linkinfobar.html:48
+#, fuzzy
 msgid "up vote"
 msgid_plural "up votes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Ustvarjanje varnostnih kopij"
+msgstr[1] "glasov za"
+msgstr[2] "glasov za"
+msgstr[3] "glasov za"
 
 #: r2/templates/linkinfobar.html:54
+#, fuzzy
 msgid "down vote"
 msgid_plural "down votes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "zmanjšaj_glasnost"
+msgstr[1] "glasov proti"
+msgstr[2] "glasov proti"
+msgstr[3] "glasov proti"
 
 #: r2/templates/linkinfopage.htmllite:28
-#, python-format
+#, fuzzy, python-format
 msgid "comments from %(site)s"
-msgstr ""
+msgstr "Zajame zaslon"
 
 #: r2/templates/linkontrial.html:44
 msgid "reddit's spam filter needs your help!"
@@ -2975,18 +3185,21 @@ msgid "how would you classify this link?"
 msgstr ""
 
 #: r2/templates/linkontrial.html:66
+#, fuzzy
 msgid "off-topic / spam"
-msgstr ""
+msgstr "izklopi admin"
 
 #: r2/templates/linkontrial.html:67
 msgid "kosher"
 msgstr ""
 
 #: r2/templates/linkontrial.html:70
+#, fuzzy
 msgid "thanks for voting!"
-msgstr ""
+msgstr "%s %s za %s kodno preveden na %s %s\n"
 
-#: r2/templates/linkontrial.html:73 r2/templates/spotlightlisting.html:71
+#: r2/templates/linkontrial.html:73
+#: r2/templates/spotlightlisting.html:71
 msgid "Click here for more info."
 msgstr ""
 
@@ -2996,178 +3209,212 @@ msgstr ""
 
 #: r2/templates/listing.html:38
 msgid "view more:"
-msgstr ""
+msgstr "preglej več:"
 
 #: r2/templates/listing.html:51
 msgid "there doesn't seem to be anything here"
-msgstr ""
+msgstr "zgleda, da ni ničesar več tukaj"
 
-#: r2/templates/login.html:34 r2/templates/register.html:34
+#: r2/templates/login.html:34
+#: r2/templates/register.html:34
 msgid "you are logged in. go use the site!"
-msgstr ""
+msgstr "prijavljen si, pojdi in uporabljaj stran!"
 
-#: r2/templates/login.html:66 r2/templates/password.html:38
-#: r2/templates/prefdelete.html:53 r2/templates/register.html:66
+#: r2/templates/login.html:66
+#: r2/templates/password.html:38
+#: r2/templates/prefdelete.html:53
+#: r2/templates/register.html:66
 msgid "username"
-msgstr ""
+msgstr "uporabniško ime"
 
-#: r2/templates/login.html:78 r2/templates/prefdelete.html:45
+#: r2/templates/login.html:78
+#: r2/templates/prefdelete.html:45
 #: r2/templates/register.html:78
 msgid "optional"
-msgstr ""
+msgstr "opcijsko"
 
-#: r2/templates/login.html:99 r2/templates/prefupdate.html:87
-#: r2/templates/register.html:99 r2/templates/resetpassword.html:45
+#: r2/templates/login.html:99
+#: r2/templates/prefupdate.html:87
+#: r2/templates/register.html:99
+#: r2/templates/resetpassword.html:45
 msgid "verify password"
-msgstr ""
+msgstr "preveri geslo"
 
-#: r2/templates/login.html:116 r2/templates/loginformwide.html:50
+#: r2/templates/login.html:116
+#: r2/templates/loginformwide.html:50
 #: r2/templates/register.html:116
 msgid "remember me"
-msgstr ""
+msgstr "zapomni si me"
 
-#: r2/templates/login.html:122 r2/templates/register.html:122
+#: r2/templates/login.html:122
+#: r2/templates/register.html:122
 msgid "recover password"
-msgstr ""
+msgstr "najdi izgubljeno geslo"
 
-#: r2/templates/login.html:129 r2/templates/register.html:129
+#: r2/templates/login.html:129
+#: r2/templates/register.html:129
 msgid "create account"
-msgstr ""
+msgstr "ustvari račun"
 
-#: r2/templates/login.html:129 r2/templates/login.html:153
-#: r2/templates/loginformwide.html:56 r2/templates/register.html:129
+#: r2/templates/login.html:129
+#: r2/templates/login.html:153
+#: r2/templates/loginformwide.html:56
+#: r2/templates/register.html:129
 #: r2/templates/register.html:153
 msgid "login"
-msgstr ""
+msgstr "prijava"
 
-#: r2/templates/login.html:141 r2/templates/register.html:141
+#: r2/templates/login.html:141
+#: r2/templates/register.html:141
 msgid "create a new account"
-msgstr ""
+msgstr "ustvari nov račun"
 
-#: r2/templates/login.html:143 r2/templates/register.html:143
+#: r2/templates/login.html:143
+#: r2/templates/register.html:143
 msgid "all it takes is a username and password"
-msgstr ""
+msgstr "vse kar je potrebno je uporabniško ime in geslo"
 
-#: r2/templates/login.html:148 r2/templates/register.html:148
+#: r2/templates/login.html:148
+#: r2/templates/register.html:148
 msgid "is it really that easy? only one way to find out..."
-msgstr ""
+msgstr "je res tako lahko? samo en način da izvemo..."
 
-#: r2/templates/login.html:155 r2/templates/register.html:155
+#: r2/templates/login.html:155
+#: r2/templates/register.html:155
 msgid "already have an account and just want to login?"
-msgstr ""
+msgstr "si že registriran in se želiš samo prijaviti?"
 
 #: r2/templates/message.html:50
 msgid "-"
-msgstr ""
+msgstr "-"
 
-#: r2/templates/message.html:56 r2/templates/message.xml:38
+#: r2/templates/message.html:56
+#: r2/templates/message.xml:38
 #, python-format
 msgid "from %(author)s sent %(when)s ago"
-msgstr ""
+msgstr "od %(author)s poslano pred %(when)s"
 
-#: r2/templates/message.html:58 r2/templates/message.xml:40
+#: r2/templates/message.html:58
+#: r2/templates/message.xml:40
 #, python-format
 msgid "to %(dest)s sent %(when)s ago"
-msgstr ""
+msgstr "za %(dest)s poslano pred %(when)s"
 
-#: r2/templates/message.html:60 r2/templates/message.xml:42
+#: r2/templates/message.html:60
+#: r2/templates/message.xml:42
 #, python-format
 msgid "to %(dest)s from %(author)s sent %(when)s ago"
-msgstr ""
+msgstr "za %(dest)s od %(author)s poslano pred %(when)s"
 
-#: r2/templates/message.html:65 r2/templates/message.xml:47
-#, python-format
+#: r2/templates/message.html:65
+#: r2/templates/message.xml:47
+#, fuzzy, python-format
 msgid "%(author)s via %(subreddit)s"
-msgstr ""
+msgstr "notranja napaka, sporočite avtorju."
 
 #: r2/templates/message.html:103
+#, fuzzy
 msgid "expand all"
-msgstr ""
+msgstr "Izberi vse"
 
 #: r2/templates/message.html:106
+#, fuzzy
 msgid "collapse all"
-msgstr ""
+msgstr "Izberi vse"
 
 #: r2/templates/message.html:121
+#, fuzzy
 msgid "show parent"
-msgstr ""
+msgstr "   s   prikaži celostno oznako diska"
 
 #: r2/templates/messagecompose.html:31
 msgid "send a message"
-msgstr ""
+msgstr "pošlji sporočilo"
 
 #: r2/templates/messagecompose.html:51
 msgid "(username, or # followed by the reddit name)"
 msgstr ""
 
 #: r2/templates/messagecompose.html:51
+#, fuzzy
 msgid "to"
-msgstr ""
+msgstr "%s (zaradi %s) "
 
 #: r2/templates/messagecompose.html:63
 msgid "subject"
-msgstr ""
+msgstr "naslov/subjekt"
 
 #: r2/templates/morechildren.html:38
+#, fuzzy
 msgid "load more comments"
-msgstr ""
+msgstr "komentarjev privzeto"
 
 #: r2/templates/morechildren.html:39
 msgid "reply"
 msgid_plural "replies"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "odgovor"
+msgstr[1] "odgovora"
+msgstr[2] "odgovori"
+msgstr[3] "odgovorov"
 
 #: r2/templates/moremessages.html:38
+#, fuzzy
 msgid "[+] load the full conversation."
-msgstr ""
+msgstr "priklopna tabela je polna"
 
 #: r2/templates/morerecursion.html:29
 msgid "continue this thread"
-msgstr ""
+msgstr "nadaljuj to temo"
 
 #: r2/templates/newlink.html:32
-#, python-format
+#, fuzzy, python-format
 msgid "submit to %(sr)s"
-msgstr ""
+msgstr "Priklapljanje '%s' na '%s' je spodletelo"
 
 #: r2/templates/newlink.html:32
+#, fuzzy
 msgid "reddit"
-msgstr ""
+msgstr "reddit gumbi"
 
-#: r2/templates/newlink.html:64 r2/templates/promotelinkform.html:269
+#: r2/templates/newlink.html:64
+#: r2/templates/promotelinkform.html:269
 msgid "url"
-msgstr ""
+msgstr "url naslov"
 
 #: r2/templates/newlink.html:74
+#, fuzzy
 msgid "suggest title"
-msgstr ""
-
-#: r2/templates/newlink.html:83 r2/templates/paymentform.html:115
-#: r2/templates/paymentform.html:121 r2/templates/sharelink.html:36
-#: r2/templates/sharelink.html:54 r2/templates/sharelink.html:73
-msgid "(optional)"
-msgstr ""
+msgstr "pridobivam naslov..."
 
 #: r2/templates/newlink.html:83
+#: r2/templates/paymentform.html:115
+#: r2/templates/paymentform.html:121
+#: r2/templates/sharelink.html:36
+#: r2/templates/sharelink.html:54
+#: r2/templates/sharelink.html:73
+#, fuzzy
+msgid "(optional)"
+msgstr "izbirno"
+
+#: r2/templates/newlink.html:83
+#, fuzzy
 msgid "text"
-msgstr ""
+msgstr "Besedilne datoteke"
 
 #: r2/templates/newlink.html:94
+#, fuzzy
 msgid "choose a subreddit"
-msgstr ""
+msgstr "Izberite <gui>Izmeri hitrost delovanja</gui>."
 
 #: r2/templates/oauth2authorization.html:28
 #, python-format
-msgid ""
-"#[%(app_name)s](%(app_about_url)s) requests to connect with your reddit "
-"account."
+msgid "#[%(app_name)s](%(app_about_url)s) requests to connect with your reddit account."
 msgstr ""
 
 #: r2/templates/oauth2authorization.html:31
-#, python-format
+#, fuzzy, python-format
 msgid "Allow %(app_name)s to:"
-msgstr ""
+msgstr "Ni mogoče ugotoviti imena gostitelja"
 
 #: r2/templates/oauth2authorization.html:35
 #, python-format
@@ -3188,26 +3435,25 @@ msgid "The address '%(email)s' will no longer receive email from us."
 msgstr ""
 
 #: r2/templates/optout.html:29
-msgid ""
-"A confirmation email has been queued up and should be reaching you shortly.  "
-"It will be the last you hear of us."
+msgid "A confirmation email has been queued up and should be reaching you shortly.  It will be the last you hear of us."
 msgstr ""
 
 #: r2/templates/optout.html:33
 #, python-format
-msgid ""
-"Would you like the address %(email)s to no longer receive email from us?"
+msgid "Would you like the address %(email)s to no longer receive email from us?"
 msgstr ""
 
-#: r2/templates/optout.html:36 r2/templates/optout.html:52
+#: r2/templates/optout.html:36
+#: r2/templates/optout.html:52
 #: r2/templates/printablebuttons.html:402
 msgid "yes"
-msgstr ""
+msgstr "da"
 
-#: r2/templates/optout.html:39 r2/templates/optout.html:55
+#: r2/templates/optout.html:39
+#: r2/templates/optout.html:55
 #: r2/templates/printablebuttons.html:405
 msgid "no"
-msgstr ""
+msgstr "ne"
 
 #: r2/templates/optout.html:45
 #, python-format
@@ -3221,86 +3467,95 @@ msgstr ""
 
 #: r2/templates/over18.html:25
 msgid "you must be at least eighteen to view this reddit"
-msgstr ""
+msgstr "moraš biti vsaj 18 let, da lahko pregleduješ ta reddit"
 
 #: r2/templates/over18.html:33
 msgid "are you over eighteen and willing to see adult content?"
-msgstr ""
+msgstr "si nad 18 let in želiš pregledovati tudi vsebine za odrasle?"
 
 #: r2/templates/password.html:29
 msgid "what's my password?"
-msgstr ""
+msgstr "kaj je moje geslo?"
 
 #: r2/templates/password.html:30
 msgid "enter your user name below to receive your login information"
-msgstr ""
+msgstr "vnesi svoje uporabniške ime spodaj za prejem tvojih podatkov za prijavo"
 
 #: r2/templates/password.html:33
 msgid "password reset link expired. please try again"
 msgstr ""
 
 #: r2/templates/password.html:45
+#, fuzzy
 msgid "email me"
-msgstr ""
+msgstr "zapomni si me"
 
 #: r2/templates/paymentform.html:34
 msgid "set up payment for this link"
 msgstr ""
 
 #: r2/templates/paymentform.html:45
-#, python-format
+#, fuzzy, python-format
 msgid "Your current bid is $%(bid)s"
 msgstr ""
+"\n"
+"Trenutna zagonska datoteka je: %s\n"
 
 #: r2/templates/paymentform.html:48
+#, fuzzy
 msgid "(total for the duration provided)"
-msgstr ""
+msgstr "Celotna velikost, izračunana za: "
 
 #: r2/templates/paymentform.html:53
 msgid "Please pick your credit card:"
 msgstr ""
 
 #: r2/templates/paymentform.html:55
+#, fuzzy
 msgid "select..."
-msgstr ""
+msgstr "Izbira ni uspela"
 
 #: r2/templates/paymentform.html:61
+#, fuzzy
 msgid "create a new one..."
-msgstr ""
+msgstr "Ustvari nov seznam predvajanja"
 
 #: r2/templates/paymentform.html:66
+#, fuzzy
 msgid "please create a new payment profile"
-msgstr ""
+msgstr "prosimo vnesite ime"
 
 #: r2/templates/paymentform.html:70
-msgid ""
-"NOTE: your card will not be charged until the link has been queued for "
-"promotion."
+msgid "NOTE: your card will not be charged until the link has been queued for promotion."
 msgstr ""
 
 #: r2/templates/paymentform.html:113
+#, fuzzy
 msgid "first name"
-msgstr ""
+msgstr "Po imenu"
 
 #: r2/templates/paymentform.html:114
+#, fuzzy
 msgid "last name"
-msgstr ""
+msgstr "Po imenu"
 
 #: r2/templates/paymentform.html:115
 msgid "company"
 msgstr ""
 
 #: r2/templates/paymentform.html:116
+#, fuzzy
 msgid "address"
-msgstr ""
+msgstr "MAC naslov naprave"
 
 #: r2/templates/paymentform.html:117
 msgid "city"
 msgstr ""
 
 #: r2/templates/paymentform.html:118
+#, fuzzy
 msgid "state"
-msgstr ""
+msgstr "Stanje dat. sistema=%d\n"
 
 #: r2/templates/paymentform.html:119
 msgid "zip"
@@ -3311,54 +3566,66 @@ msgid "country"
 msgstr ""
 
 #: r2/templates/paymentform.html:121
+#, fuzzy
 msgid "phone"
 msgstr ""
+"[ -p pisarniški-tel ]\n"
+"\t[ -h domači-tel   ] "
 
 #: r2/templates/paymentform.html:122
+#, fuzzy
 msgid "card number"
-msgstr ""
+msgstr "Številka razdelka"
 
 #: r2/templates/paymentform.html:122
+#, fuzzy
 msgid "(14-17 digits)"
-msgstr ""
+msgstr "i1 RGB Scan 14"
 
 #: r2/templates/paymentform.html:123
+#, fuzzy
 msgid "expiration date"
-msgstr ""
+msgstr "Oblika datuma"
 
 #: r2/templates/paymentform.html:124
 msgid "CCV"
 msgstr ""
 
 #: r2/templates/paymentform.html:124
+#, fuzzy
 msgid "(3 or 4 digits)"
-msgstr ""
+msgstr "prijava ali registracija"
 
 #: r2/templates/paymentform.html:181
 msgid "authorize payment"
 msgstr ""
 
-#: r2/templates/paymentform.html:184 r2/templates/printablebuttons.html:159
+#: r2/templates/paymentform.html:184
+#: r2/templates/printablebuttons.html:159
 #: r2/templates/printablebuttons.html:193
-#: r2/templates/printablebuttons.html:289 r2/templates/wrappeduser.html:57
+#: r2/templates/printablebuttons.html:289
+#: r2/templates/wrappeduser.html:57
 msgid "edit"
-msgstr ""
+msgstr "uredi"
 
 #: r2/templates/permalinkmessage.html:24
+#, fuzzy
 msgid "you are viewing a single comment's thread."
-msgstr ""
+msgstr "trenutno pregleduješ samo en komentar"
 
 #: r2/templates/permalinkmessage.html:26
+#, fuzzy
 msgid "view the rest of the comments"
-msgstr ""
+msgstr "komentarjev privzeto"
 
 #: r2/templates/prefdelete.html:28
+#, fuzzy
 msgid "delete your reddit account"
-msgstr ""
+msgstr "Ostale reddit skupine"
 
 #: r2/templates/prefdelete.html:31
 msgid "deleting..."
-msgstr ""
+msgstr "brišem..."
 
 #: r2/templates/prefdelete.html:34
 msgid "sorry to see you go!"
@@ -3366,10 +3633,8 @@ msgstr ""
 
 #: r2/templates/prefdelete.html:36
 msgid ""
-" * if you're having a problem on reddit, please consider [contacting us](/"
-"feedback) about it before deleting your account.\n"
-" * deleting your account will not delete the content of posts and comments "
-"you've made on reddit. to do so, please delete them individually."
+" * if you're having a problem on reddit, please consider [contacting us](/feedback) about it before deleting your account.\n"
+" * deleting your account will not delete the content of posts and comments you've made on reddit. to do so, please delete them individually."
 msgstr ""
 
 #: r2/templates/prefdelete.html:45
@@ -3377,12 +3642,14 @@ msgid "why are you deleting this account?"
 msgstr ""
 
 #: r2/templates/prefdelete.html:52
+#, fuzzy
 msgid "for security purposes"
-msgstr ""
+msgstr "Pomembne varnostne posodobitve"
 
 #: r2/templates/prefdelete.html:52
+#, fuzzy
 msgid "account credentials"
-msgstr ""
+msgstr "ustvari račun"
 
 #: r2/templates/prefdelete.html:63
 msgid "confirmation"
@@ -3393,24 +3660,20 @@ msgid "I understand that deleted accounts are not recoverable."
 msgstr ""
 
 #: r2/templates/prefdelete.html:73
+#, fuzzy
 msgid "delete account"
-msgstr ""
+msgstr "Izbris uporabniškega računa"
 
 #: r2/templates/preffeeds.html:29
 msgid "Private RSS feeds"
 msgstr ""
 
 #: r2/templates/preffeeds.html:31
-msgid ""
-"On this page are links to private RSS feeds so that you can get listings of "
-"your content (personalized front page, message panel, saved listing, etc.) "
-"without having to deal with cookies or other auth."
+msgid "On this page are links to private RSS feeds so that you can get listings of your content (personalized front page, message panel, saved listing, etc.) without having to deal with cookies or other auth."
 msgstr ""
 
 #: r2/templates/preffeeds.html:32
-msgid ""
-"Keep in mind that these urls are intended to be private, so **share at your "
-"own risk.**"
+msgid "Keep in mind that these urls are intended to be private, so **share at your own risk.**"
 msgstr ""
 
 #: r2/templates/preffeeds.html:33
@@ -3418,40 +3681,50 @@ msgid "All feeds are invalidated if you change your password, however."
 msgstr ""
 
 #: r2/templates/preffeeds.html:54
+#, fuzzy
 msgid "your front page"
-msgstr ""
+msgstr "ena poškodovana stran\n"
 
 #: r2/templates/preffeeds.html:57
+#, fuzzy
 msgid "your saved links"
-msgstr ""
+msgstr "najvišje ocenjene povezave"
 
 #: r2/templates/preffeeds.html:64
+#, fuzzy
 msgid "links you've liked"
-msgstr ""
+msgstr "si onemogočen"
 
 #: r2/templates/preffeeds.html:67
+#, fuzzy
 msgid "links you've disliked"
-msgstr ""
+msgstr "si onemogočen"
 
 #: r2/templates/preffeeds.html:70
+#, fuzzy
 msgid "links you've hidden"
-msgstr ""
+msgstr "si onemogočen"
 
-#: r2/templates/preffeeds.html:77 r2/templates/preffeeds.html:97
+#: r2/templates/preffeeds.html:77
+#: r2/templates/preffeeds.html:97
 msgid "everything"
 msgstr ""
 
-#: r2/templates/preffeeds.html:80 r2/templates/preffeeds.html:100
+#: r2/templates/preffeeds.html:80
+#: r2/templates/preffeeds.html:100
+#, fuzzy
 msgid "unread messages"
-msgstr ""
+msgstr "pošlji sporočilo"
 
 #: r2/templates/preffeeds.html:83
+#, fuzzy
 msgid "messages only"
-msgstr ""
+msgstr "Le izpiši datoteke"
 
 #: r2/templates/preffeeds.html:86
+#, fuzzy
 msgid "comment replies only"
-msgstr ""
+msgstr "Le izpiši datoteke"
 
 #: r2/templates/preffeeds.html:89
 msgid "self-post replies only"
@@ -3459,35 +3732,37 @@ msgstr ""
 
 #: r2/templates/prefoptions.html:71
 msgid "your preferences have been updated"
-msgstr ""
+msgstr "tvoje nastavitve so bile posodobljene"
 
 #: r2/templates/prefoptions.html:89
 msgid "interface language"
-msgstr ""
+msgstr "jezik vmesnika"
 
 #: r2/templates/prefoptions.html:93
 msgid "incomplete"
-msgstr ""
+msgstr "nepopolno"
 
 #: r2/templates/prefoptions.html:94
 msgid "volunteer to translate"
-msgstr ""
+msgstr "pomagaj prevajati"
 
 #: r2/templates/prefoptions.html:98
 msgid "content language"
-msgstr ""
+msgstr "jezik vsebine"
 
 #: r2/templates/prefoptions.html:105
 msgid "clicking options"
-msgstr ""
+msgstr "nastavitve za klikanje"
 
 #: r2/templates/prefoptions.html:107
 msgid "display links with a reddit toolbar"
-msgstr ""
+msgstr "prikaži povezave z reddit orodno vrstico"
 
-#: r2/templates/prefoptions.html:113 r2/templates/promotelinkform.html:352
+#: r2/templates/prefoptions.html:113
+#: r2/templates/promotelinkform.html:352
+#, fuzzy
 msgid "media"
-msgstr ""
+msgstr "uredi"
 
 #: r2/templates/prefoptions.html:116
 msgid "show thumbnails next to links"
@@ -3515,16 +3790,14 @@ msgstr ""
 
 #: r2/templates/prefoptions.html:132
 msgid "link options"
-msgstr ""
+msgstr "nastavitve povezav"
 
 #: r2/templates/prefoptions.html:136
 msgid "show the spotlight box on the front page"
 msgstr ""
 
 #: r2/templates/prefoptions.html:139
-msgid ""
-"(it shows new and promoted links, and gives you a say in what's spam and "
-"what isn't.)"
+msgid "(it shows new and promoted links, and gives you a say in what's spam and what isn't.)"
 msgstr ""
 
 #: r2/templates/prefoptions.html:143
@@ -3537,75 +3810,79 @@ msgstr ""
 
 #: r2/templates/prefoptions.html:147
 msgid "compress the link display"
-msgstr ""
+msgstr "shrajšan prikaz povezav"
 
 #: r2/templates/prefoptions.html:148
 msgid "don't show links after i've liked them"
-msgstr ""
+msgstr "ne prikaži povezav po tem, ko sem jih označil za všečne"
 
-#: r2/templates/prefoptions.html:150 r2/templates/prefoptions.html:154
+#: r2/templates/prefoptions.html:150
+#: r2/templates/prefoptions.html:154
+#, fuzzy
 msgid "(except my own)"
-msgstr ""
+msgstr "kaj je moje geslo?"
 
 #: r2/templates/prefoptions.html:152
 msgid "don't show links after i've disliked them"
-msgstr ""
+msgstr "ne prikaži povezav po tem, ko sem jih označil za nevšečne"
 
 #: r2/templates/prefoptions.html:158
 msgid "display"
-msgstr ""
+msgstr "pregleduj"
 
 #: r2/templates/prefoptions.html:159
 msgid "links at once"
-msgstr ""
+msgstr "povezav naenkrat"
 
 #: r2/templates/prefoptions.html:160
 msgid "don't show me sites with a score less than"
-msgstr ""
+msgstr "ne prikazuj strani z oceno manjšo kot"
 
 #: r2/templates/prefoptions.html:161
 msgid "don't show me comments with a score less than"
-msgstr ""
+msgstr "ne prikazuj komentarjev z oceno manjšo kot"
 
 #: r2/templates/prefoptions.html:162
 msgid "comments by default"
-msgstr ""
+msgstr "komentarjev privzeto"
 
 #: r2/templates/prefoptions.html:165
 #, python-format
 msgid "display %(num)s links at once"
-msgstr ""
+msgstr "pregleduj %(num)s povezav na enkrat"
 
 #: r2/templates/prefoptions.html:173
 #, python-format
 msgid "don't show me sites with a score less than %(num)s"
-msgstr ""
+msgstr "ne prikazuj strani z oceno manjšo kot %(num)s"
 
-#: r2/templates/prefoptions.html:174 r2/templates/prefoptions.html:187
+#: r2/templates/prefoptions.html:174
+#: r2/templates/prefoptions.html:187
 msgid "(blank for none)"
-msgstr ""
+msgstr "(pusti prazno za brez)"
 
 #: r2/templates/prefoptions.html:179
 msgid "comment options"
-msgstr ""
+msgstr "nastavitve komentarjev"
 
 #: r2/templates/prefoptions.html:186
 #, python-format
 msgid "don't show me comments with a score less than %(num)s"
-msgstr ""
+msgstr "ne prikazuj komentarjev z oceno manjšo kot %(num)s\t\t"
 
 #: r2/templates/prefoptions.html:195
 #, python-format
 msgid "display %(num)s comments by default"
-msgstr ""
+msgstr "pregleduje %(num)s komentarjev na enkrat"
 
 #: r2/templates/prefoptions.html:201
 msgid "the smaller the number, the faster your comments pages will load"
 msgstr ""
 
 #: r2/templates/prefoptions.html:206
+#, fuzzy
 msgid "messaging options"
-msgstr ""
+msgstr "Možnosti po meri"
 
 #: r2/templates/prefoptions.html:208
 msgid "show message conversations in the inbox"
@@ -3631,17 +3908,20 @@ msgstr ""
 msgid "(otherwise, they will be marked as read when you click them)"
 msgstr ""
 
-#: r2/templates/prefoptions.html:230 r2/templates/widgetdemopanel.html:193
+#: r2/templates/prefoptions.html:230
+#: r2/templates/widgetdemopanel.html:193
+#, fuzzy
 msgid "display options"
-msgstr ""
+msgstr "Možnosti po meri"
 
 #: r2/templates/prefoptions.html:232
 msgid "allow reddits to show me custom styles"
 msgstr ""
 
 #: r2/templates/prefoptions.html:234
+#, fuzzy
 msgid "show user flair"
-msgstr ""
+msgstr "Upravljanje uporabniških računov"
 
 #: r2/templates/prefoptions.html:237
 msgid "show promote tab on front page"
@@ -3649,11 +3929,11 @@ msgstr ""
 
 #: r2/templates/prefoptions.html:245
 msgid "i am over eighteen years old and willing to view adult content"
-msgstr ""
+msgstr "sem nad 18 let in želim pregledovati tudi vsebine za odrasle"
 
 #: r2/templates/prefoptions.html:246
 msgid "required to view some reddits"
-msgstr ""
+msgstr "potrebno za pregledovanje nekaterih redditov"
 
 #: r2/templates/prefoptions.html:248
 msgid "label posts that are not safe for work (NSFW)"
@@ -3669,11 +3949,11 @@ msgstr ""
 
 #: r2/templates/prefoptions.html:255
 msgid "privacy options"
-msgstr ""
+msgstr "nastavitve zasebnosti"
 
 #: r2/templates/prefoptions.html:257
 msgid "make my votes public"
-msgstr ""
+msgstr "naredi moje glasove javne"
 
 #: r2/templates/prefoptions.html:264
 #, python-format
@@ -3693,8 +3973,9 @@ msgid "load core JS libraries from reddit servers"
 msgstr ""
 
 #: r2/templates/prefoptions.html:299
+#, fuzzy
 msgid "gold options"
-msgstr ""
+msgstr "Možnosti po meri"
 
 #: r2/templates/prefoptions.html:301
 msgid "show the right sidebar ad box"
@@ -3705,157 +3986,180 @@ msgid "the attractive 300x250 one that usually only has reddit t-shirts in it"
 msgstr ""
 
 #: r2/templates/prefoptions.html:304
+#, fuzzy
 msgid "show sponsored links"
-msgstr ""
+msgstr "najvišje ocenjene povezave"
 
 #: r2/templates/prefoptions.html:305
 msgid "the blue advertisements that sometimes appear on the top of the page"
 msgstr ""
 
 #: r2/templates/prefoptions.html:307
+#, fuzzy
 msgid "show sponsorships"
-msgstr ""
+msgstr "   s   prikaži celostno oznako diska"
 
 #: r2/templates/prefoptions.html:308
 msgid "the 300x100 'sponsored by...' images that sometimes appear in sidebars"
 msgstr ""
 
 #: r2/templates/prefoptions.html:311
+#, fuzzy
 msgid "highlight new comments"
-msgstr ""
+msgstr "komentarjev privzeto"
 
 #: r2/templates/prefoptions.html:313
-msgid ""
-"we'll remember your visits for 48 hours and show you which comments you "
-"haven't seen yet"
+msgid "we'll remember your visits for 48 hours and show you which comments you haven't seen yet"
 msgstr ""
 
 #: r2/templates/prefupdate.html:28
+#, fuzzy
 msgid "update your email or password"
-msgstr ""
+msgstr "vaš email naslov in geslo sta bila posodobljena"
 
 #: r2/templates/prefupdate.html:31
+#, fuzzy
 msgid "verify your email"
-msgstr ""
+msgstr "vaš email naslov je bil posodobljen"
 
 #: r2/templates/prefupdate.html:33
+#, fuzzy
 msgid "update your email"
-msgstr ""
+msgstr "vaš email naslov je bil posodobljen"
 
 #: r2/templates/prefupdate.html:36
+#, fuzzy
 msgid "update your password"
-msgstr ""
+msgstr "Spreminjanje gesla"
 
 #: r2/templates/prefupdate.html:45
+#, fuzzy
 msgid "not set"
-msgstr ""
+msgstr "Nenastavljeno"
 
 #: r2/templates/prefupdate.html:48
+#, fuzzy
 msgid "verified"
-msgstr ""
+msgstr "pregled"
 
 #: r2/templates/prefupdate.html:51
 msgid "verification pending"
 msgstr ""
 
 #: r2/templates/prefupdate.html:52
+#, fuzzy
 msgid "click to resend"
-msgstr ""
+msgstr "Priklapljanje '%s' na '%s' je spodletelo"
 
 #: r2/templates/prefupdate.html:54
 msgid "unverified"
 msgstr ""
 
 #: r2/templates/prefupdate.html:55
+#, fuzzy
 msgid "click to verify"
-msgstr ""
+msgstr "   v   preveri tabelo razdelkov"
 
 #: r2/templates/prefupdate.html:65
+#, fuzzy
 msgid "(required)"
-msgstr ""
+msgstr "obvezno"
 
 #: r2/templates/prefupdate.html:65
+#, fuzzy
 msgid "current password"
-msgstr ""
+msgstr "Napačno geslo."
 
-#: r2/templates/prefupdate.html:80 r2/templates/resetpassword.html:38
+#: r2/templates/prefupdate.html:80
+#: r2/templates/resetpassword.html:38
 msgid "new password"
-msgstr ""
+msgstr "novo geslo"
 
 #: r2/templates/prefupdate.html:96
+#, fuzzy
 msgid "send verification email"
-msgstr ""
+msgstr "prosimo vnesite email naslov"
 
 #: r2/templates/printablebuttons.html:38
+#, fuzzy
 msgid "indict"
-msgstr ""
+msgstr "uredi"
 
 #: r2/templates/printablebuttons.html:38
 msgid "indicted"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:45 r2/templates/trophycase.html:47
-#: r2/templates/trophycase.html:67 r2/templates/usertableitem.html:55
+#: r2/templates/printablebuttons.html:45
+#: r2/templates/trophycase.html:47
+#: r2/templates/trophycase.html:67
+#: r2/templates/usertableitem.html:55
 msgid "remove"
-msgstr ""
+msgstr "odstrani"
 
 #: r2/templates/printablebuttons.html:45
-#: r2/templates/printablebuttons.html:140 r2/templates/trophycase.html:47
+#: r2/templates/printablebuttons.html:140
+#: r2/templates/trophycase.html:47
 #: r2/templates/trophycase.html:67
 msgid "removed"
-msgstr ""
+msgstr "odstranjeno"
 
 #: r2/templates/printablebuttons.html:51
+#, fuzzy
 msgid "approve"
-msgstr ""
+msgstr "odstrani"
 
 #: r2/templates/printablebuttons.html:52
 #: r2/templates/printablebuttons.html:143
 #: r2/templates/subredditinfobar.html:82
+#, fuzzy
 msgid "approved"
-msgstr ""
+msgstr "odstranjeno"
 
 #: r2/templates/printablebuttons.html:58
 msgid "report"
-msgstr ""
+msgstr "prijavi"
 
 #: r2/templates/printablebuttons.html:62
 msgid "nsfw"
 msgstr ""
 
 #: r2/templates/printablebuttons.html:62
+#, fuzzy
 msgid "marked"
-msgstr ""
+msgstr "več"
 
 #: r2/templates/printablebuttons.html:65
 msgid "un-nsfw"
 msgstr ""
 
 #: r2/templates/printablebuttons.html:65
+#, fuzzy
 msgid "unmarked"
-msgstr ""
+msgstr "od-shranjeno"
 
 #: r2/templates/printablebuttons.html:78
+#, fuzzy
 msgid "distinguishing..."
-msgstr ""
+msgstr "pošiljam..."
 
 #: r2/templates/printablebuttons.html:80
 msgid "distinguish"
 msgstr ""
 
 #: r2/templates/printablebuttons.html:82
+#, fuzzy
 msgid "distinguish this?"
-msgstr ""
+msgstr "to uro"
 
 #: r2/templates/printablebuttons.html:123
-#, python-format
+#, fuzzy, python-format
 msgid "confirm %(obj)s removal"
-msgstr ""
+msgstr "Pripravljanje na odstranitev %s"
 
 #: r2/templates/printablebuttons.html:126
-#, python-format
+#, fuzzy, python-format
 msgid "remove %(obj)s"
-msgstr ""
+msgstr "Odstrani blok"
 
 #: r2/templates/printablebuttons.html:131
 #, python-format
@@ -3868,25 +4172,28 @@ msgid "approve %(obj)s"
 msgstr ""
 
 #: r2/templates/printablebuttons.html:164
-#: r2/templates/printablebuttons.html:212 r2/templates/sharelink.html:98
+#: r2/templates/printablebuttons.html:212
+#: r2/templates/sharelink.html:98
 msgid "cancel"
-msgstr ""
+msgstr "prekliči"
 
 #: r2/templates/printablebuttons.html:183
 msgid "hidden"
-msgstr ""
+msgstr "skrito"
 
 #: r2/templates/printablebuttons.html:212
+#, fuzzy
 msgid "reject"
-msgstr ""
+msgstr "naslov/subjekt"
 
 #: r2/templates/printablebuttons.html:217
 msgid "accept"
 msgstr ""
 
 #: r2/templates/printablebuttons.html:217
+#, fuzzy
 msgid "accepted"
-msgstr ""
+msgstr "prijavljeno"
 
 #: r2/templates/printablebuttons.html:223
 msgid "traffic"
@@ -3901,9 +4208,9 @@ msgid "deputy opinion:"
 msgstr ""
 
 #: r2/templates/printablebuttons.html:235
-#, python-format
+#, fuzzy, python-format
 msgid "%d spam"
-msgstr ""
+msgstr "spam"
 
 #: r2/templates/printablebuttons.html:241
 #, python-format
@@ -3913,166 +4220,197 @@ msgstr ""
 #: r2/templates/printablebuttons.html:260
 #: r2/templates/printablebuttons.html:319
 msgid "permalink"
-msgstr ""
+msgstr "perma-povezava"
 
 #: r2/templates/printablebuttons.html:264
-#: r2/templates/printablebuttons.html:315 r2/templates/starkcomment.html:33
+#: r2/templates/printablebuttons.html:315
+#: r2/templates/starkcomment.html:33
 msgid "context"
-msgstr ""
+msgstr "konekst"
 
 #: r2/templates/printablebuttons.html:267
+#, fuzzy
 msgid "full comments"
-msgstr ""
+msgstr "komentarjev privzeto"
 
 #: r2/templates/printablebuttons.html:277
 #: r2/templates/printablebuttons.html:284
 msgid "parent"
-msgstr ""
+msgstr "oče"
 
 #: r2/templates/printablebuttons.html:297
 #: r2/templates/printablebuttons.html:336
 msgid "reply {verb}"
-msgstr ""
+msgstr "odgovori"
 
 #: r2/templates/printablebuttons.html:326
+#, fuzzy
 msgid "block user"
-msgstr ""
+msgstr "Uporabniški meni"
 
 #: r2/templates/printablebuttons.html:326
+#, fuzzy
 msgid "blocked"
-msgstr ""
+msgstr "všečno"
 
 #: r2/templates/printablebuttons.html:330
+#, fuzzy
 msgid "mark unread"
-msgstr ""
+msgstr "Mark Finlay"
 
 #: r2/templates/printablebuttons.html:384
 msgid "are you sure?"
-msgstr ""
+msgstr "ali si prepričan?"
 
 #: r2/templates/printablebuttons.html:480
+#, fuzzy
 msgid "toggle"
-msgstr ""
+msgstr "   c   preklopi zastavico priklopljivo"
 
 #: r2/templates/profilebar.html:53
+#, fuzzy
 msgid "+ friends"
-msgstr ""
+msgstr "prijatelji"
 
 #: r2/templates/profilebar.html:53
+#, fuzzy
 msgid "- friends"
-msgstr ""
+msgstr "prijatelji"
 
 #: r2/templates/profilebar.html:91
+#, fuzzy
 msgid "link karma"
-msgstr ""
+msgstr "%s: ni mogoče povezati %s: %s\n"
 
 #: r2/templates/profilebar.html:96
+#, fuzzy
 msgid "comment karma"
-msgstr ""
+msgstr "komentiraj"
 
 #: r2/templates/profilebar.html:110
+#, fuzzy
 msgid "of reddit gold remaining"
-msgstr ""
+msgstr "Pridobivanje datoteke %li od %li (%s preostalo)"
 
 #: r2/templates/profilebar.html:118
 msgid "Recurring Paypal subscription"
 msgstr ""
 
-#: r2/templates/profilebar.html:139 r2/templates/usertableitem.html:50
+#: r2/templates/profilebar.html:139
+#: r2/templates/usertableitem.html:50
 msgid "send message"
-msgstr ""
+msgstr "pošlji sporočilo"
 
 #: r2/templates/profilebar.html:143
+#, fuzzy
 msgid "redditor for"
-msgstr ""
+msgstr "Dnevnik sprememb za %s (%s)"
 
 #: r2/templates/promote_graph.html:171
+#, fuzzy
 msgid "total promotion traffic"
-msgstr ""
+msgstr "Vseh imen paketov: "
 
 #: r2/templates/promote_graph.html:185
+#, fuzzy
 msgid "historical site performance"
-msgstr ""
+msgstr "namesti set priljubljenčkov iz %(site)s"
 
 #: r2/templates/promote_graph.html:201
 msgid "top promoters this month"
 msgstr ""
 
 #: r2/templates/promote_graph.html:242
+#, fuzzy
 msgid "promotions this month"
-msgstr ""
+msgstr "O tem vodiču"
 
 #: r2/templates/promotedlink.html:36
-#, python-format
+#, fuzzy, python-format
 msgid "to be promoted by %(author)s"
-msgstr ""
+msgstr "prispeval %(author)s pred %(when)s na %(reddit)s"
 
 #: r2/templates/promotedlink.html:38
-#, python-format
+#, fuzzy, python-format
 msgid "promoted by %(author)s"
-msgstr ""
+msgstr "prispeval %(author)s pred %(when)s"
 
 #: r2/templates/promotedlink.html:58
+#, fuzzy
 msgid "deleted sponsored link"
-msgstr ""
+msgstr "*** Napaka med povezovanjem %s in %s"
 
 #: r2/templates/promotedlink.html:60
+#, fuzzy
 msgid "unpaid sponsored link"
-msgstr ""
+msgstr "*** Napaka med povezovanjem %s in %s"
 
 #: r2/templates/promotedlink.html:62
+#, fuzzy
 msgid "unapproved sponsored link"
-msgstr ""
+msgstr "*** Napaka med povezovanjem %s in %s"
 
 #: r2/templates/promotedlink.html:64
+#, fuzzy
 msgid "rejected sponsored link"
-msgstr ""
+msgstr "*** Napaka med povezovanjem %s in %s"
 
-#: r2/templates/promotedlink.html:66 r2/templates/promotedlink.html:71
+#: r2/templates/promotedlink.html:66
+#: r2/templates/promotedlink.html:71
+#, fuzzy
 msgid "sponsored link"
-msgstr ""
+msgstr "%s: ni mogoče povezati %s: %s\n"
 
 #: r2/templates/promotedlink.html:68
+#, fuzzy
 msgid "accepted sponsored link"
-msgstr ""
+msgstr "*** Napaka med povezovanjem %s in %s"
 
 #: r2/templates/promotedtraffic.html:48
 msgid "Promotion Traffic"
 msgstr ""
 
 #: r2/templates/promotedtraffic.html:50
+#, fuzzy
 msgid "(download as .csv)"
-msgstr ""
+msgstr "Prejem epizode podcasta"
 
 #: r2/templates/promotelinkform.html:64
+#, fuzzy
 msgid "create a promotion"
-msgstr ""
+msgstr "ustvari reddit"
 
 #: r2/templates/promotelinkform.html:64
+#, fuzzy
 msgid "edit promotion"
-msgstr ""
+msgstr "Uredi zaznamke mape"
 
 #: r2/templates/promotelinkform.html:76
 msgid "campaign dashboard"
 msgstr ""
 
 #: r2/templates/promotelinkform.html:300
+#, fuzzy
 msgid "upload header image:"
-msgstr ""
+msgstr "napačno ime slike"
 
 #: r2/templates/promotelinkform.html:329
+#, fuzzy
 msgid "disable comments"
-msgstr ""
+msgstr "komentarjev privzeto"
 
 #: r2/templates/promotelinkform.html:361
+#, fuzzy
 msgid "width"
-msgstr ""
+msgstr "widget"
 
 #: r2/templates/promotelinkform.html:369
+#, fuzzy
 msgid "height"
-msgstr ""
+msgstr "uredi"
 
-#: r2/templates/promotelinkform.html:414 r2/templates/promotelinkform.html:495
+#: r2/templates/promotelinkform.html:414
+#: r2/templates/promotelinkform.html:495
 msgid "promotion history"
 msgstr ""
 
@@ -4080,109 +4418,125 @@ msgstr ""
 msgid "bidding history"
 msgstr ""
 
-#: r2/templates/reddit.html:157 r2/templates/reddit.html:169
+#: r2/templates/reddit.html:157
+#: r2/templates/reddit.html:169
 msgid "close this window"
-msgstr ""
+msgstr "zapri to okno"
 
 #: r2/templates/redditfooter.html:47
 #, python-format
-msgid ""
-"Use of this site constitutes acceptance of our %(user_agreement)s and "
-"%(privacy_policy)s"
-msgstr ""
+msgid "Use of this site constitutes acceptance of our %(user_agreement)s and %(privacy_policy)s"
+msgstr "Uporaba te strani pomeni strinjanje z našimi %(user_agreement)s in %(privacy_policy)s\t"
 
 #: r2/templates/redditfooter.html:49
 msgid "User Agreement {Genitive}"
-msgstr ""
+msgstr "Uporabniškimi pogoji"
 
 #: r2/templates/redditfooter.html:51
 msgid "Privacy Policy {Genitive}"
-msgstr ""
+msgstr "Pravilnikom o zasebnosti"
 
 #: r2/templates/redditfooter.html:53
-#, python-format
+#, fuzzy, python-format
 msgid "%(year)d reddit inc. All rights reserved."
-msgstr ""
+msgstr "(c)%(year)dCondeNet, Inc. Vse pravice pridržane.\t"
 
 #: r2/templates/redditheader.html:32
+#, fuzzy
 msgid "jump to content"
-msgstr ""
+msgstr "Skok na naslednjo skladbo"
 
 #: r2/templates/redditheader.html:65
 #, python-format
 msgid "want to join? %(register)s in seconds"
-msgstr ""
+msgstr "se hočeš pridružiti? %(register)s v nekaj sekundah."
 
 #: r2/templates/redditheader.html:66
 msgid "register"
-msgstr ""
+msgstr "registracija"
 
 #: r2/templates/redditheader.html:103
+#, fuzzy
 msgid "mod messages"
-msgstr ""
+msgstr "sporočila"
 
-#: r2/templates/reddittraffic.html:48 r2/templates/reddittraffic.html:55
-#: r2/templates/reddittraffic.html:86 r2/templates/reddittraffic.html:185
+#: r2/templates/reddittraffic.html:48
+#: r2/templates/reddittraffic.html:55
+#: r2/templates/reddittraffic.html:86
+#: r2/templates/reddittraffic.html:185
 #: r2/templates/reddittraffic.html:204
+#, fuzzy
 msgid "date"
-msgstr ""
+msgstr "Oblika datuma"
 
-#: r2/templates/reddittraffic.html:49 r2/templates/reddittraffic.html:51
-#: r2/templates/reddittraffic.html:56 r2/templates/reddittraffic.html:87
-#: r2/templates/reddittraffic.html:186 r2/templates/reddittraffic.html:205
+#: r2/templates/reddittraffic.html:49
+#: r2/templates/reddittraffic.html:51
+#: r2/templates/reddittraffic.html:56
+#: r2/templates/reddittraffic.html:87
+#: r2/templates/reddittraffic.html:186
+#: r2/templates/reddittraffic.html:205
 #: r2/templates/reddittraffic.html:207
+#, fuzzy
 msgid "uniques"
-msgstr ""
+msgstr "odkrij"
 
-#: r2/templates/reddittraffic.html:50 r2/templates/reddittraffic.html:52
-#: r2/templates/reddittraffic.html:57 r2/templates/reddittraffic.html:88
-#: r2/templates/reddittraffic.html:187 r2/templates/reddittraffic.html:206
+#: r2/templates/reddittraffic.html:50
+#: r2/templates/reddittraffic.html:52
+#: r2/templates/reddittraffic.html:57
+#: r2/templates/reddittraffic.html:88
+#: r2/templates/reddittraffic.html:187
+#: r2/templates/reddittraffic.html:206
 #: r2/templates/reddittraffic.html:208
+#, fuzzy
 msgid "impressions"
-msgstr ""
+msgstr "prispevki:"
 
-#: r2/templates/reddittraffic.html:53 r2/templates/reddittraffic.html:59
+#: r2/templates/reddittraffic.html:53
+#: r2/templates/reddittraffic.html:59
+#, fuzzy
 msgid "subscriptions"
-msgstr ""
+msgstr "opis"
 
 #: r2/templates/reddittraffic.html:103
 msgid "Daily Mean"
 msgstr ""
 
 #: r2/templates/reddittraffic.html:132
-msgid ""
-"There doesn't seem to be any traffic data at the moment.  Please check back "
-"later."
+msgid "There doesn't seem to be any traffic data at the moment.  Please check back later."
 msgstr ""
 
 #: r2/templates/reddittraffic.html:201
+#, fuzzy
 msgid "cnamed"
-msgstr ""
+msgstr "ime"
 
 #: r2/templates/reddittraffic.html:209
+#, fuzzy
 msgid "cname"
-msgstr ""
+msgstr "ime"
 
 #: r2/templates/roadblocks.html:34
+#, fuzzy
 msgid "create a roadblock"
-msgstr ""
+msgstr "ustvari reddit"
 
 #: r2/templates/roadblocks.html:94
 msgid "existing roadblocks"
 msgstr ""
 
 #: r2/templates/searchbar.html:41
-#, python-format
+#, fuzzy, python-format
 msgid "about %(num)d results in %(second)s"
-msgstr ""
+msgstr "približno %(num)d rezultatoov v %(second)s"
 
 #: r2/templates/searchbar.html:51
 msgid "satisfied?"
 msgstr ""
 
 #: r2/templates/searchbar.html:55
+#, fuzzy
 msgid "thanks for your feedback!"
-msgstr ""
+msgstr "Preverjanje trdega diska za težave."
 
 #: r2/templates/searchform.html:34
 msgid "find things posted in {name} only"
@@ -4221,34 +4575,39 @@ msgid "advanced search: by author, community..."
 msgstr ""
 
 #: r2/templates/searchform.html:61
+#, fuzzy
 msgid "search reddit"
-msgstr ""
+msgstr "reddit gumbi"
 
-#: r2/templates/searchform.html:67 r2/templates/searchform.html:79
+#: r2/templates/searchform.html:67
+#: r2/templates/searchform.html:79
 #, python-format
 msgid "limit my search to %(path)s"
 msgstr ""
 
 #: r2/templates/share.email:32
 #, python-format
-msgid ""
-"There is currently %(num_comments)s on this link.  You can view it here:"
-msgid_plural ""
-"There are currently %(num_comments)s on this link.  You can view them here:"
+msgid "There is currently %(num_comments)s on this link.  You can view it here:"
+msgid_plural "There are currently %(num_comments)s on this link.  You can view them here:"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: r2/templates/sharelink.html:15
+#, fuzzy
 msgid "send this link to"
-msgstr ""
+msgstr "pošljem naj komu?"
 
 #: r2/templates/sharelink.html:51
+#, fuzzy
 msgid "your email"
-msgstr ""
+msgstr "geslo/email"
 
 #: r2/templates/sharelink.html:70
+#, fuzzy
 msgid "message {share form}"
-msgstr ""
+msgstr "Vir souporaba DAAP"
 
 #: r2/templates/sharelink.html:79
 #, python-format
@@ -4264,16 +4623,19 @@ msgid "Your reddit headline shirt"
 msgstr ""
 
 #: r2/templates/shirtpane.html:52
+#, fuzzy
 msgid "Color"
-msgstr ""
+msgstr "Barva slepota"
 
 #: r2/templates/shirtpane.html:59
+#, fuzzy
 msgid "Size"
-msgstr ""
+msgstr "Velikost"
 
 #: r2/templates/shirtpane.html:67
+#, fuzzy
 msgid "Style"
-msgstr ""
+msgstr "tip"
 
 #: r2/templates/shirtpane.html:74
 msgid "Qty:"
@@ -4284,21 +4646,21 @@ msgstr ""
 msgid "Click %(here)s to close help."
 msgstr ""
 
-#: r2/templates/spotlightlisting.html:60 r2/templates/spotlightlisting.html:74
+#: r2/templates/spotlightlisting.html:60
+#: r2/templates/spotlightlisting.html:74
 #: r2/templates/spotlightlisting.html:101
 msgid "here"
 msgstr ""
 
 #: r2/templates/spotlightlisting.html:68
-msgid ""
-"Sometimes reddit needs to ask the community to help fight spam. This is your "
-"chance to take part in that."
+msgid "Sometimes reddit needs to ask the community to help fight spam. This is your chance to take part in that."
 msgstr ""
 
 #: r2/templates/spotlightlisting.html:74
 #: r2/templates/spotlightlisting.html:101
+#, fuzzy
 msgid "This element has been disabled."
-msgstr ""
+msgstr "ta element je bil izbrisan"
 
 #: r2/templates/spotlightlisting.html:76
 #: r2/templates/spotlightlisting.html:103
@@ -4307,63 +4669,64 @@ msgid "Click %(here)s to disable this feature."
 msgstr ""
 
 #: r2/templates/spotlightlisting.html:96
-msgid ""
-"This area shows new and upcoming links. Vote on links here to help them "
-"become popular, and click the forwards and backwards buttons to view more. "
+msgid "This area shows new and upcoming links. Vote on links here to help them become popular, and click the forwards and backwards buttons to view more. "
 msgstr ""
 
 #: r2/templates/spotlightlisting.html:118
-msgid ""
-"The new link area will no longer appear for you. To re-enable it, visit your "
-"preferences."
+msgid "The new link area will no longer appear for you. To re-enable it, visit your preferences."
 msgstr ""
 
 #: r2/templates/subreddit.html:59
 #, python-format
 msgid "a community for %(time)s"
-msgstr ""
+msgstr "skupnost obstaja že %(time)s"
 
 #: r2/templates/subreddit.html:64
 msgid "unsubscribe"
-msgstr ""
+msgstr "preklic naročnine"
 
-#: r2/templates/subreddit.html:85 r2/templates/subreddit.html:86
+#: r2/templates/subreddit.html:85
+#: r2/templates/subreddit.html:86
+#, fuzzy
 msgid "not approved"
-msgstr ""
+msgstr "(ni najdeno)"
 
 #: r2/templates/subreddit.html:97
+#, fuzzy
 msgid "over18"
-msgstr ""
+msgstr "star nad 18?"
 
 #: r2/templates/subredditinfobar.html:34
 msgid "leave"
-msgstr ""
+msgstr "odidi"
 
 #: r2/templates/subredditinfobar.html:48
-#, python-format
+#, fuzzy, python-format
 msgid "you are a moderator of this reddit. (%(leave)s)"
-msgstr ""
+msgstr "si a%(moderator)s za ta reddit.\t\t"
 
 #: r2/templates/subredditinfobar.html:49
 msgid "stop being a moderator?"
-msgstr ""
+msgstr "prenehaj biti moderator?"
 
 #: r2/templates/subredditinfobar.html:50
 msgid "you are no longer a moderator"
-msgstr ""
+msgstr "nisi več moderator"
 
 #: r2/templates/subredditinfobar.html:56
-#, python-format
+#, fuzzy, python-format
 msgid "you are an approved submitter on this reddit. (%(leave)s)"
-msgstr ""
+msgstr "si a%(moderator)s za ta reddit.\t\t"
 
 #: r2/templates/subredditinfobar.html:57
+#, fuzzy
 msgid "stop being an approved submitter?"
-msgstr ""
+msgstr "prenehaj biti moderator?"
 
 #: r2/templates/subredditinfobar.html:58
+#, fuzzy
 msgid "you are no longer an approved submitter"
-msgstr ""
+msgstr "nisi več moderator"
 
 #: r2/templates/subredditinfobar.html:71
 #, python-format
@@ -4371,91 +4734,108 @@ msgid "created by&#32;%(user)s"
 msgstr ""
 
 #: r2/templates/subredditinfobar.html:75
+#, fuzzy
 msgid "a community for"
-msgstr ""
+msgstr "skupnost obstaja že %(time)s"
 
 #: r2/templates/subredditinfobar.html:81
+#, fuzzy
 msgid "approve this reddit"
-msgstr ""
+msgstr "ta reddit je bil umaknjen"
 
 #: r2/templates/subredditinfobar.html:89
+#, fuzzy
 msgid "ban this reddit"
-msgstr ""
+msgstr "ta reddit je bil umaknjen"
 
-#: r2/templates/subredditinfobar.html:90 r2/templates/subscriptionbox.html:57
+#: r2/templates/subredditinfobar.html:90
+#: r2/templates/subscriptionbox.html:57
 msgid "banned"
-msgstr ""
+msgstr "onemogočen"
 
 #: r2/templates/subredditstylesheet.html:41
+#, fuzzy
 msgid "stylesheet"
-msgstr ""
+msgstr "datoteka za stil"
 
 #: r2/templates/subredditstylesheet.html:70
+#, fuzzy
 msgid "show the default stylesheet"
-msgstr ""
+msgstr "Napačna privzeta nastavitev!"
 
 #: r2/templates/subredditstylesheet.html:71
+#, fuzzy
 msgid "hide the default stylesheet"
-msgstr ""
+msgstr "Napačna privzeta nastavitev!"
 
 #: r2/templates/subredditstylesheet.html:81
 #: r2/templates/subredditstylesheet.html:262
+#, fuzzy
 msgid "preview"
-msgstr ""
+msgstr "nazaj"
 
 #: r2/templates/subredditstylesheet.html:96
+#, fuzzy
 msgid "images"
-msgstr ""
+msgstr "sporočila"
 
 #: r2/templates/subredditstylesheet.html:100
+#, fuzzy
 msgid "image file"
-msgstr ""
+msgstr "Skritje datoteke"
 
 #: r2/templates/subredditstylesheet.html:103
+#, fuzzy
 msgid "new image name:"
-msgstr ""
+msgstr "napačno ime slike"
 
 #: r2/templates/subredditstylesheet.html:108
 msgid "(image names should consist of alphanumeric characters and '-' only)"
 msgstr ""
 
 #: r2/templates/subredditstylesheet.html:112
-msgid ""
-"Note: any changes to images here will be reflected immediately on reload and "
-"cannot be undone."
+msgid "Note: any changes to images here will be reflected immediately on reload and cannot be undone."
 msgstr ""
 
 #: r2/templates/subredditstylesheet.html:205
+#, fuzzy
 msgid "please select an image"
-msgstr ""
+msgstr "napačno ime slike"
 
 #: r2/templates/subredditstylesheet.html:240
+#, fuzzy
 msgid "paste into stylesheet"
-msgstr ""
+msgstr "Prilepi vsebino odložišča."
 
 #: r2/templates/subredditstylesheet.html:243
+#, fuzzy
 msgid "delete this image"
-msgstr ""
+msgstr "napačno ime slike"
 
 #: r2/templates/subredditstylesheet.html:265
+#, fuzzy
 msgid "normal link"
-msgstr ""
+msgstr "%s: ni mogoče povezati %s: %s\n"
 
 #: r2/templates/subredditstylesheet.html:269
+#, fuzzy
 msgid "compressed link"
-msgstr ""
+msgstr "%s: ni mogoče povezati %s: %s\n"
 
 #: r2/templates/subredditstylesheet.html:273
+#, fuzzy
 msgid "link with thumbnail"
-msgstr ""
+msgstr "FTP (s prijavo)"
 
 #: r2/templates/thanks.html:34
+#, fuzzy
 msgid "thanks for subscribing!"
-msgstr ""
+msgstr "%s %s za %s kodno preveden na %s %s\n"
 
 #: r2/templates/thanks.html:39
+#, fuzzy
 msgid "enter your confirmation code below to claim your gift creddits"
-msgstr ""
+msgstr "vnesi svoje uporabniške ime spodaj za prejem tvojih podatkov za prijavo"
 
 #: r2/templates/thanks.html:41
 msgid "enter your confirmation code below to activate reddit gold"
@@ -4470,9 +4850,7 @@ msgid "You're already a reddit gold subscriber."
 msgstr ""
 
 #: r2/templates/thanks.html:49
-msgid ""
-"But if you just gave us even more money, enter the new confirmation code "
-"below and we'll add the extra credit to your account."
+msgid "But if you just gave us even more money, enter the new confirmation code below and we'll add the extra credit to your account."
 msgstr ""
 
 #: r2/templates/thanks.html:62
@@ -4484,156 +4862,173 @@ msgid "dust"
 msgstr ""
 
 #: r2/templates/trophycase.html:107
-#, python-format
+#, fuzzy, python-format
 msgid "%d more"
-msgstr ""
+msgstr "--Naprej--"
 
 #: r2/templates/unfoundpage.html:25
 msgid "the page you requested does not exist"
-msgstr ""
+msgstr "zahtevana stran ne obstaja"
 
 #: r2/templates/userawards.html:39
 msgid "Ongoing awards, and their most recent winners:"
 msgstr ""
 
 #: r2/templates/userawards.html:54
+#, fuzzy
 msgid "won by"
-msgstr ""
+msgstr "Po imenu"
 
 #: r2/templates/userawards.html:57
+#, fuzzy
 msgid "recently won by"
-msgstr ""
+msgstr "Po datumu spremembe"
 
 #: r2/templates/userawards.html:85
+#, fuzzy
 msgid "for this"
-msgstr ""
+msgstr "to uro"
 
 #: r2/templates/userawards.html:95
+#, fuzzy
 msgid "Special awards:"
-msgstr ""
+msgstr "Vnesite posebne znake"
 
 #: r2/templates/useriphistory.html:30
 msgid "Recent activity on your account"
 msgstr ""
 
 #: r2/templates/useriphistory.html:39
+#, fuzzy
 msgid "IP address"
-msgstr ""
+msgstr "Najdite svoj naslov IP"
 
 #: r2/templates/useriphistory.html:40
+#, fuzzy
 msgid "Location"
-msgstr ""
+msgstr "Mesto"
 
 #: r2/templates/useriphistory.html:41
+#, fuzzy
 msgid "Last Visit"
-msgstr ""
+msgstr "Zadnja prijava: %.*s "
 
 #: r2/templates/userlist.html:37
 msgid "add"
-msgstr ""
+msgstr "dodaj"
 
 #: r2/templates/usertableitem.html:61
+#, fuzzy
 msgid "can't remove"
-msgstr ""
+msgstr "Odstrani blok"
 
 #: r2/templates/usertext.html:72
+#, fuzzy
 msgid "formatting help"
-msgstr ""
+msgstr "Pomoč za uporabo namizja"
 
 #: r2/templates/usertext.html:95
 msgid "you type:"
-msgstr ""
+msgstr "vtipkaš:"
 
 #: r2/templates/usertext.html:96
 msgid "you see:"
-msgstr ""
+msgstr "vidiš:"
 
-#: r2/templates/usertext.html:99 r2/templates/usertext.html:100
+#: r2/templates/usertext.html:99
+#: r2/templates/usertext.html:100
 msgid "italics"
-msgstr ""
+msgstr "poševno"
 
-#: r2/templates/usertext.html:103 r2/templates/usertext.html:104
+#: r2/templates/usertext.html:103
+#: r2/templates/usertext.html:104
 msgid "bold"
-msgstr ""
+msgstr "poudarjeno"
 
-#: r2/templates/usertext.html:112 r2/templates/usertext.html:113
-#: r2/templates/usertext.html:114 r2/templates/usertext.html:118
-#: r2/templates/usertext.html:119 r2/templates/usertext.html:120
+#: r2/templates/usertext.html:112
+#: r2/templates/usertext.html:113
+#: r2/templates/usertext.html:114
+#: r2/templates/usertext.html:118
+#: r2/templates/usertext.html:119
+#: r2/templates/usertext.html:120
 msgid "item"
-msgstr ""
+msgstr "stvar"
 
-#: r2/templates/usertext.html:125 r2/templates/usertext.html:126
+#: r2/templates/usertext.html:125
+#: r2/templates/usertext.html:126
 msgid "quoted text"
-msgstr ""
+msgstr "citiran tekst"
 
 #: r2/templates/utils.html:228
 msgid "all languages"
-msgstr ""
+msgstr "vsi jeziki"
 
 #: r2/templates/utils.html:232
 msgid "some languages"
-msgstr ""
+msgstr "nekateri jeziki"
 
 #: r2/templates/utils.html:295
+#, fuzzy
 msgid "Type: "
-msgstr ""
+msgstr "Vrsta"
 
 #: r2/templates/utils.html:305
+#, fuzzy
 msgid "uploading"
-msgstr ""
+msgstr "nalagam..."
 
 #: r2/templates/utils.html:307
 msgid "upload"
 msgstr ""
 
 #: r2/templates/utils.html:516
+#, fuzzy
 msgid "popular choices"
-msgstr ""
+msgstr "popularno"
 
 #: r2/templates/widgetdemopanel.html:111
 #, python-format
 msgid "get live %(site)s headlines on your site"
-msgstr ""
+msgstr "dobivaj %(site)s novice v živo na svoji strani"
 
 #: r2/templates/widgetdemopanel.html:113
 #, python-format
-msgid ""
-"just cut and paste the generated code into your site and your specified "
-"%(site)s feed will be displayed and updated as new stories bubble up"
-msgstr ""
+msgid "just cut and paste the generated code into your site and your specified %(site)s feed will be displayed and updated as new stories bubble up"
+msgstr "samo kopiraj in prilepi generirano kodo na svojo stran in specificirani %(site)s viri bodo prikazani in posodobljeni sproti, ko bodo prihajali novi prispevki."
 
 #: r2/templates/widgetdemopanel.html:115
 msgid "which links do you want to display?"
-msgstr ""
+msgstr "katere povezave hočeš imeti prikazane?"
 
 #: r2/templates/widgetdemopanel.html:125
 msgid "all-time"
-msgstr ""
+msgstr "celoten čas"
 
 #: r2/templates/widgetdemopanel.html:131
 msgid "submitted by"
-msgstr ""
+msgstr "prispeval"
 
 #: r2/templates/widgetdemopanel.html:132
 msgid "saved by"
-msgstr ""
+msgstr "shranil"
 
 #: r2/templates/widgetdemopanel.html:133
 msgid "liked by"
-msgstr ""
+msgstr "glasoval za"
 
 #: r2/templates/widgetdemopanel.html:134
 msgid "disliked by"
-msgstr ""
+msgstr "glasoval proti"
 
 #: r2/templates/widgetdemopanel.html:145
+#, fuzzy
 msgid "listing options"
-msgstr ""
+msgstr "Možnosti po meri"
 
 #: r2/templates/widgetdemopanel.html:151
-#, python-format
+#, fuzzy, python-format
 msgid "links from %(domain)s"
-msgstr ""
+msgstr "Zajame zaslon"
 
 #: r2/templates/widgetdemopanel.html:155
 #, python-format
@@ -4641,21 +5036,22 @@ msgid "links %(submitted_by)s the user %(who)s"
 msgstr ""
 
 #: r2/templates/widgetdemopanel.html:159
-#, python-format
+#, fuzzy, python-format
 msgid "links from the domain %(domain)s"
-msgstr ""
+msgstr "Zajame zaslon"
 
 #: r2/templates/widgetdemopanel.html:165
+#, fuzzy
 msgid "sorting options"
-msgstr ""
+msgstr "Možnosti po meri"
 
 #: r2/templates/widgetdemopanel.html:171
 msgid "hottest"
-msgstr ""
+msgstr "najbolj vroči"
 
 #: r2/templates/widgetdemopanel.html:172
 msgid "newest"
-msgstr ""
+msgstr "najnovejši"
 
 #: r2/templates/widgetdemopanel.html:176
 #, python-format
@@ -4672,8 +5068,9 @@ msgid "number of links to show"
 msgstr ""
 
 #: r2/templates/widgetdemopanel.html:200
+#, fuzzy
 msgid "remove css styling"
-msgstr ""
+msgstr "napačen css razred"
 
 #: r2/templates/widgetdemopanel.html:202
 msgid "(the widget will inherit all styles from the page)"
@@ -4684,30 +5081,263 @@ msgid "enable in-widget voting"
 msgstr ""
 
 #: r2/templates/widgetdemopanel.html:212
+#, fuzzy
 msgid "(will slow down the rendering)"
-msgstr ""
+msgstr "Internet je počasen"
 
 #: r2/templates/widgetdemopanel.html:221
+#, fuzzy
 msgid "two columns"
-msgstr ""
+msgstr "Vsi stolpci so enake širine"
 
 #: r2/templates/widgetdemopanel.html:228
+#, fuzzy
 msgid "background color"
-msgstr ""
+msgstr "Barva slepota"
 
 #: r2/templates/widgetdemopanel.html:232
 msgid "(e.g., FF0000 = red)"
 msgstr ""
 
 #: r2/templates/widgetdemopanel.html:239
+#, fuzzy
 msgid "border color"
-msgstr ""
+msgstr "Barva slepota"
 
 #: r2/templates/widgetdemopanel.html:249
 msgid "the code"
-msgstr ""
+msgstr "izvorna koda"
 
 #: r2/templates/widgetdemopanel.html:251
 #, python-format
 msgid "add this into your HTML where you want the %(site)s links displayed"
-msgstr ""
+msgstr "dodaj to v svoj HTML, kjer hočeš da so %(site)s povezave prikazane"
+
+#~ msgid "see? you don't really want to leave"
+#~ msgstr "vidiš? najbrž res nočeš oditi"
+
+#~ msgid "title required"
+#~ msgstr "naslov je obvezen"
+
+#~ msgid "you can be more succinct than that"
+#~ msgstr "lahko si malo bolj jedrnat"
+
+#~ msgid "your letters stink"
+#~ msgstr "tvoje črke niso v redu"
+
+#~ msgid "description is too long"
+#~ msgstr "opis je predolg"
+
+#~ msgid "inquire about advertising on reddit"
+#~ msgstr "poizvej o oglaševanju na redditu"
+
+#~ msgid "recommended for you"
+#~ msgstr "priporočeno zate"
+
+#~ msgid "overview for %(user)s on %(site)s"
+#~ msgstr "pregled za %(user)s na %(site)s"
+
+#~ msgid "Customize your reddit"
+#~ msgstr "Prilagodi svoj reddit."
+
+#~ msgid "Select which communities you want to see"
+#~ msgstr "Izberi katere skupine želiš videti"
+
+#~ msgid "add contributor"
+#~ msgstr "dodaj prispernika"
+
+#~ msgid "contributor"
+
+#~ msgid_plural "contributors"
+#~ msgstr[0] "udeleženec"
+#~ msgstr[1] "udeleženca"
+#~ msgstr[2] "udeleženci"
+#~ msgstr[3] "udeležencev"
+
+#~ msgid "%d %s"
+#~ msgstr "%d %s\t\t"
+
+#~ msgid "%5.3f %s"
+#~ msgstr "%5.3f %s"
+
+#~ msgid "you have been added as a contributor to [%(title)s](%(url)s)."
+#~ msgstr "dodan si kot udeleženec na [%(title)s](%(url)s)."
+
+#~ msgid "you are a contributor"
+#~ msgstr "si udeleženec"
+
+#~ msgid "below are the reddits that you have contributor access to."
+#~ msgstr "spodaj so redditi, pri katerih imaš status udeleženca."
+
+#~ msgid "click the checkbox next to a reddit to subscribe"
+#~ msgstr "klikni na okence zraven reddita, da se nanj naročiš"
+
+#~ msgid ""
+#~ "a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t  u  v  w  x  "
+#~ "y  z"
+#~ msgstr "a b c d e f g h i j k l m n o p q r s t u v w x y z"
+
+#~ msgid ""
+#~ "A  B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  "
+#~ "Y  Z"
+#~ msgstr "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z\t"
+
+#~ msgid "1  2  3  4  5  6  7  8  9  0"
+#~ msgstr "1 2 3 4 5 6 7 8 9 0"
+
+#~ msgid "$  ^"
+#~ msgstr "$ ^"
+
+#~ msgid "reddit.com: what's new online!"
+#~ msgstr "reddit.com: kaj je novega na spletu!"
+
+#~ msgid "IPs:"
+#~ msgstr "IPji:"
+
+#~ msgid "site administration"
+#~ msgstr "administracija strani"
+
+#~ msgid "what's new online"
+#~ msgstr "novo na spletu"
+
+#~ msgid ""
+#~ "once added to your toolbar, these buttons will let you \"reddit this"
+#~ "\" (submit the link, or if it's already been submitted, share it and/or "
+#~ "comment on it), like, dislike, and save links while you surf."
+#~ msgstr ""
+#~ "ko bodo gumbi dodani v vašo orodno vrstico, vam bodo omogočali prispevati "
+#~ "novo povezavo (oz. če že obstaja delitev z drugimi in komentiranje), "
+#~ "glasovanje za in proti ter shranjevanje povezav kar med surfanjem."
+
+#~ msgid ""
+#~ "copy and paste the code for the style of button you would like      into "
+#~ "your site.  The green lines are      optional."
+#~ msgstr ""
+#~ "kopiraj in prilepi kodo za stil gumba, ki gaželite imeti, v svojo stran. "
+#~ "Zelene vrstice niso obvezne."
+
+#~ msgid ""
+#~ "if the site has not been submitted yet, clicking on the button      will "
+#~ "take the user to a reddit submit page, otherwise it takes      them to "
+#~ "the comments page."
+#~ msgstr ""
+#~ "če povezava na stran še ni bila dodana, bo uporabnik s klikom na gumb "
+#~ "preusmerjen na stran za dodajanje prispevkov, sicer pa bo preusmerjen na "
+#~ "stran za komentiranje."
+
+#~ msgid ""
+#~ "if you want to specify the URL that should be submitted to      reddit, "
+#~ "include the reddit_url line.  if you don't include that      line, then "
+#~ "the current page's URL will be used."
+#~ msgstr ""
+#~ "če hočeš določiti URL naslov, ki naj se prispeva na reddit, potem vključi "
+#~ "reddit_url vrstico. če ne vključiš te vrstice, bo uporabljen URL naslov "
+#~ "trenutne strani."
+
+#~ msgid ""
+#~ "if you want to specify the title that should be submitted to      reddit, "
+#~ "include the reddit_title line.  if you don't include that      line, then "
+#~ "the user will have to specify a title when they      submit."
+#~ msgstr ""
+#~ "če hočeš določiti naslov, ki naj se prispeva na reddit, potem vključi "
+#~ "reddit_title vrstico. če ne vključiš te vrstice, bo moral uporabnik "
+#~ "določiti svoj naslov, ko bo hotel poslati prispevek."
+
+#~ msgid "style %(number)s"
+#~ msgstr "stil %(number)s"
+
+#~ msgid "type the letters from the image above"
+#~ msgstr "prepiši črke iz zgornje slike"
+
+#~ msgid "static directory"
+#~ msgstr "statični direktorij"
+
+#~ msgid "headerfile"
+#~ msgstr "datoteka z glavo"
+
+#~ msgid "reply to"
+#~ msgstr "odgovori na"
+
+#~ msgid "%(points)s posted %(when)s ago by %(author)s"
+#~ msgstr "%(points)s prispeval %(author)s pred %(when)s"
+
+#~ msgid "User Agreement"
+#~ msgstr "Uporabniški pogoji"
+
+#~ msgid "Privacy Policy"
+#~ msgstr "Pravilnik o zasebnosti"
+
+#~ msgid "to (username)"
+#~ msgstr "za (uporabniško ime)"
+
+#~ msgid "type \"self\" here to make this post refer to itself."
+#~ msgstr "tu napiši \"self\", če želiš da se tema slikcuje nase"
+
+#~ msgid "enter a title, or click submit to find one automatically."
+#~ msgstr "vnesi naslov, ali pa klikni pošlji za samodejni naslov"
+
+#~ msgid "use reddit from your toolbar with the %(bookmarklets)s"
+#~ msgstr "uporabljaj reddit iz svoje orodne vrstice z %(bookmarklets)s"
+
+#~ msgid "reddit bookmarklets"
+#~ msgstr "reddit priljubljenčki"
+
+#~ msgid "delete your reddit account? hope you have a good reason."
+#~ msgstr "želiš izbrisati svoj reddit račun? upamo, da imaš dober razlog."
+
+#~ msgid "current password (required)"
+#~ msgstr "trenutno geslo (obvezno)"
+
+#~ msgid "unban"
+#~ msgstr "omogoči"
+
+#~ msgid "unbanned"
+#~ msgstr "omogočeno"
+
+#~ msgid "ban"
+#~ msgstr "onemogoči"
+
+#~ msgid "ignore"
+#~ msgstr "ignoriraj"
+
+#~ msgid "ignored"
+#~ msgstr "ignorirano"
+
+#~ msgid "karma:"
+#~ msgstr "karma:"
+
+#~ msgid "user for %(time)s"
+#~ msgstr "uporabnik že %(time)s"
+
+#~ msgid "add to friends"
+#~ msgstr "dodaj kot prijatelja"
+
+#~ msgid "remove from friends"
+#~ msgstr "odstrani z liste prijateljev"
+
+#~ msgid "(c) 2008 CondeNet, Inc. All rights reserved."
+#~ msgstr "(c) 2008 CondeNet, Inc. Vse pravice pridržane."
+
+#~ msgid "search"
+#~ msgstr "poišči"
+
+#~ msgid "save edits"
+#~ msgstr "shrani spremembe"
+
+#~ msgid "you are a %(contributor)s of this reddit."
+#~ msgstr "si a%(contributor)s za ta reddit."
+
+#~ msgid "stop being a contributor?"
+#~ msgstr "prenehaj biti udeleženec?"
+
+#~ msgid "you are no longer a contributor"
+#~ msgstr "nisi več udeleženec"
+
+#~ msgid "biggest karma gainers"
+#~ msgstr "pridobitniki največ karme"
+
+#~ msgid "%(site)s %(what)s links from %(when)s"
+#~ msgstr "%(site)s %(what)s povezave iz %(when)s"
+
+#~ msgid "%(what)s %(where)s %(who)s"
+#~ msgstr "%(what)s %(where)s %(who)s"
